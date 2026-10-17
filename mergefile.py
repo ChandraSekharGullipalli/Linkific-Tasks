@@ -3,8 +3,9 @@ import pandas as pd
 
 df1 = pd.read_csv("Employee1.csv")
 df2 = pd.read_csv("Employee2.csv")
+df3 = pd.read_csv("Employee3.csv")
 
-merged_df = pd.concat([df1, df2], ignore_index=True)
+merged_df = pd.concat([df1, df2, df3], ignore_index=True)
 
 merged_df.to_csv("merged_Employee.csv", index=False)
 
