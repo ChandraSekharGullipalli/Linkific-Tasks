@@ -1,0 +1,2 @@
+2026-10-17 09:03:10 ERROR Failed to process customer record
+2026-10-17 09:05:00 ERROR Database connection lost
