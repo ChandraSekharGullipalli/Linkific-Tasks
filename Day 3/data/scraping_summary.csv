@@ -1,0 +1,4 @@
+﻿source,url,records,status
+books_main,https://books.toscrape.com/,20,Success
+books_fiction,https://books.toscrape.com/catalogue/category/books/fiction_10/index.html,20,Success
+books_travel,https://books.toscrape.com/catalogue/category/books/travel_2/index.html,11,Success

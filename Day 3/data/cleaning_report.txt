@@ -1,0 +1,15 @@
+DATA CLEANING REPORT
+===================================
+Input file: books_main.csv
+Output file: books_cleaned.csv
+Rows before cleaning: 20
+Rows after cleaning: 20
+Duplicate rows removed: 0
+Missing values before cleaning: 0
+
+Missing values after cleaning:
+title: 0
+price: 0
+availability: 0
+source_url: 0
+price_numeric: 20
