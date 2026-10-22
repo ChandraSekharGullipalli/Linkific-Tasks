@@ -15,7 +15,7 @@ This project demonstrates how to integrate public REST APIs using Python, retrie
 - Organize Python scripts for data engineering practice.
 
 ## 3. Technologies Used
-
+    
 - Python 3
 - Requests library
 - REST APIs
