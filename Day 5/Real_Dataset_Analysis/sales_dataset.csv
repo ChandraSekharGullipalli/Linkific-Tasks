@@ -1,0 +1,16 @@
+OrderID,Product,Category,Region,Quantity,UnitPrice,TotalSales
+1001,Laptop,Electronics,South,2,50000,100000
+1002,Mobile,Electronics,North,5,15000,75000
+1003,Tablet,Electronics,East,3,20000,60000
+1004,Laptop,Electronics,West,1,50000,50000
+1005,Mobile,Electronics,South,4,15000,60000
+1006,Tablet,Electronics,East,6,20000,120000
+1007,Laptop,Electronics,North,2,50000,100000
+1008,Mobile,Electronics,West,3,15000,45000
+1009,Laptop,Electronics,South,1,50000,50000
+1010,Tablet,Electronics,North,5,20000,100000
+1011,Mobile,Electronics,East,4,15000,60000
+1012,Laptop,Electronics,West,2,50000,100000
+1013,Tablet,Electronics,South,3,20000,60000
+1014,Mobile,Electronics,North,6,15000,90000
+1015,Laptop,Electronics,East,1,50000,50000

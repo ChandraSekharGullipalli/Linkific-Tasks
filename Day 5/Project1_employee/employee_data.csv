@@ -1,0 +1,11 @@
+EmployeeID,Name,Department,Age,Salary,City
+101, Ravi ,IT,25,45000,Hyderabad
+102,Priya,HR,28,35000,Bengaluru
+103,Arun,IT,,55000,Chennai
+104,Sneha,Finance,30,60000,Hyderabad
+105,Priya,HR,28,35000,Bengaluru
+106,Kiran,IT,26,,Pune
+107,Meena,Finance,29,65000, Hyderabad
+108,John,IT,200,50000,Chennai
+109,Anu,HR,24,32000,
+110, Ravi ,IT,25,45000,Hyderabad

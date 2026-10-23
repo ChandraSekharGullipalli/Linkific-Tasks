@@ -1,0 +1,17 @@
+
+CustomerID,Name,Email,Phone,City,Age
+C001, Ravi Kumar , RAVI@GMAIL.COM ,9876543210,Hyderabad,25
+C002,Priya Sharma,priya@gmail.com,9876543211,Bengaluru,28
+C003,Arun Kumar,arun@gmail.com,9876543212,Chennai,32
+C004,Sneha Reddy,sneha@gmail.com,,Hyderabad,27
+C005,Priya Sharma,priya@gmail.com,9876543211,Bengaluru,28
+C006,Kiran Rao,kiran.gmail.com,9876543213,Pune,30
+C007,Meena Das,meena@gmail.com,12345, Kolkata,29
+C008,John Paul,john@gmail.com,9876543215,Chennai,200
+C009,Anu Verma, ,9876543216,Hyderabad,24
+C010,Ravi Kumar,ravi@gmail.com,9876543210,Hyderabad,25
+C011,Divya Nair,divya@gmail.com,9876543217,,26
+C012,Manoj Singh,manoj@gmail.com,9876543218,Delhi,
+C013,Test User,invalid-email,9876543219,Chennai,35
+C014,Neha Patel,neha@gmail.com,9876543220,Mumbai,31
+C015,Ajay Rao,ajay@gmail.com,9876543221,Hyderabad,-5

@@ -1,0 +1,15 @@
+TransactionID,Product,Category,Quantity,UnitPrice,SaleDate,Region,TotalSales
+T001,Laptop,Electronics,2.0,55000.0,2026-10-01,South,110000.0
+T002,Mouse,Electronics,5.0,500.0,2026-10-02,North,2500.0
+T003,Keyboard,Electronics,3.0,1200.0,2026-10-03,East,3600.0
+T004,Monitor,Electronics,2.0,12000.0,2026-10-04,South,24000.0
+T006,Laptop,Electronics,2.0,55000.0,2026-10-01,South,110000.0
+T007,Office Chair,Furniture,4.0,4500.0,2026-10-06,West,18000.0
+T009,Notebook,Stationery,10.0,50.0,2026-10-08,East,500.0
+T010,Pen,Stationery,20.0,10.0,2026-10-09,North,200.0
+T011,Usb Cable,Electronics,5.0,250.0,2026-10-10,South,1250.0
+T013,Headphones,Electronics,3.0,2500.0,2026-10-12,South,7500.0
+T014,Notebook,Stationery,10.0,50.0,2026-10-08,East,500.0
+T016,Tablet,Electronics,2.0,25000.0,2026-10-14,Unknown,50000.0
+T017,Pen,Stationery,15.0,10.0,2026-10-15,North,150.0
+T018,Office Chair,Furniture,2.0,4500.0,2026-10-16,West,9000.0
