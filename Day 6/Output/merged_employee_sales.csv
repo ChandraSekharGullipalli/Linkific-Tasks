@@ -1,0 +1,9 @@
+EmployeeID,EmployeeName,DepartmentID,Salary,JoiningDate,DepartmentName,Location,SaleID,SaleDate,Amount
+101,Ravi,10,35000,2024-01-15,IT,Hyderabad,1,2026-10-01,12000
+101,Ravi,10,35000,2024-01-15,IT,Hyderabad,3,2026-10-02,18000
+102,Sita,20,42000,2023-06-10,HR,Bengaluru,2,2026-10-01,15000
+102,Sita,20,42000,2023-06-10,HR,Bengaluru,7,2026-10-04,17000
+103,Arun,10,38000,2024-03-20,IT,Hyderabad,4,2026-10-02,9000
+103,Arun,10,38000,2024-03-20,IT,Hyderabad,8,2026-10-04,11000
+104,Meena,30,45000,2022-11-05,Finance,Chennai,5,2026-10-03,22000
+105,Kiran,20,40000,2023-09-12,HR,Bengaluru,6,2026-10-03,14000
