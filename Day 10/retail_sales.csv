@@ -1,0 +1,23 @@
+
+order_id,order_date,product,category,quantity,unit_price,city
+2001,2026-10-01,Laptop,Electronics,2,55000,Bengaluru
+2002,2026-10-02,Mouse,Accessories,5,500,Hyderabad
+2003,2026-10-03,Keyboard,Accessories,3,1200,Chennai
+2004,2026-10-04,Monitor,Electronics,2,12000,Pune
+2005,2026-10-05,Desk,Furniture,1,8500,Bengaluru
+2006,2026-10-06,Chair,Furniture,4,2500,Hyderabad
+2007,2026-10-07,Headphones,Accessories,3,1800,Delhi
+2008,2026-10-08,Tablet,Electronics,2,22000,Chennai
+2009,2026-10-09,Mouse,Accessories,5,500,Hyderabad
+2010,2026-10-10,Webcam,Accessories,2,2500,Pune
+2011,2026-10-11,Printer,Electronics,1,15000,Delhi
+2012,2026-10-12,Desk,Furniture,2,8500,Bengaluru
+2013,2026-10-13,USB Cable,Accessories,10,250,Chennai
+2014,2026-10-14,Laptop,Electronics,1,55000,Hyderabad
+2015,2026-10-15,Chair,Furniture,3,2500,Pune
+2015,2026-10-15,Chair,Furniture,3,2500,Pune
+2016,2026-10-16,Monitor,Electronics,0,12000,Delhi
+2017,2026-10-17,Keyboard,Accessories,2,1200,Bengaluru
+2018,2026-10-18,Tablet,Electronics,1,22000,Hyderabad
+2019,2026-10-19,Printer,Electronics,2,15000,Chennai
+2020,2026-10-20,Headphones,Accessories,3,1800,Pune
