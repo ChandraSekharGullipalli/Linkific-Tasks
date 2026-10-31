@@ -1,0 +1,9 @@
+patient_id,patient_name,age,department,city,consultation_fee
+201,Aarav,28,Cardiology,Hyderabad,800
+202,Meera,35,Neurology,Bengaluru,1000
+203,Rohan,42,Orthopedics,Chennai,700
+204,Diya,31,Dermatology,Pune,600
+205,Vikram,50,Cardiology,Mumbai,900
+206,Sana,26,Neurology,Delhi,850
+207,Arjun,39,Orthopedics,Hyderabad,750
+208,Isha,45,Dermatology,Bengaluru,650

@@ -1,0 +1,37 @@
+[
+    {
+        "course_id": 301,
+        "course_name": "Python Programming",
+        "category": "Programming",
+        "duration_hours": 40,
+        "price": 1500
+    },
+    {
+        "course_id": 302,
+        "course_name": "Data Engineering",
+        "category": "Data Science",
+        "duration_hours": 60,
+        "price": 2500
+    },
+    {
+        "course_id": 303,
+        "course_name": "Machine Learning",
+        "category": "AI",
+        "duration_hours": 50,
+        "price": 2200
+    },
+    {
+        "course_id": 304,
+        "course_name": "SQL Fundamentals",
+        "category": "Database",
+        "duration_hours": 25,
+        "price": 1000
+    },
+    {
+        "course_id": 305,
+        "course_name": "Cloud Computing",
+        "category": "Cloud",
+        "duration_hours": 45,
+        "price": 1800
+    }
+]

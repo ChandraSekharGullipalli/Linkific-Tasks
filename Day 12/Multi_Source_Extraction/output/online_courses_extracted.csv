@@ -1,0 +1,6 @@
+course_id,course_name,category,duration_hours,price
+301,Python Programming,Programming,40,1500
+302,Data Engineering,Data Science,60,2500
+303,Machine Learning,AI,50,2200
+304,SQL Fundamentals,Database,25,1000
+305,Cloud Computing,Cloud,45,1800

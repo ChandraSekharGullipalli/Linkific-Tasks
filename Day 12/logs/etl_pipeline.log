@@ -1,0 +1,10 @@
+2026-10-31 15:48:00,984 - INFO - ETL pipeline started
+2026-10-31 15:48:00,984 - INFO - Starting sales data extraction
+2026-10-31 15:48:00,990 - INFO - Sales extraction completed: 8 records
+2026-10-31 15:48:00,990 - INFO - Starting customer data extraction
+2026-10-31 15:48:00,992 - INFO - Customer extraction completed: 6 records
+2026-10-31 15:48:00,992 - INFO - Starting data transformation
+2026-10-31 15:48:01,020 - INFO - Transformation completed: 8 records
+2026-10-31 15:48:01,027 - INFO - Starting database loading
+2026-10-31 15:48:01,193 - INFO - Database loading completed successfully
+2026-10-31 15:48:01,194 - INFO - ETL pipeline completed successfully

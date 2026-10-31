@@ -1,0 +1,103 @@
+2026-10-31 16:20:53,951 - ERROR - CSV file not found
+Traceback (most recent call last):
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 12\Multi_Source_Extraction\error_handling.py", line 20, in handle_csv
+    data = pd.read_csv("../Data/hospital_patients.csv")
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: '../Data/hospital_patients.csv'
+2026-10-31 16:20:54,568 - ERROR - JSON extraction failed
+Traceback (most recent call last):
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 12\Multi_Source_Extraction\error_handling.py", line 59, in handle_json
+    with open("../Data/online_courses.json", "r") as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../Data/online_courses.json'
+2026-10-31 16:23:29,404 - ERROR - CSV file not found
+Traceback (most recent call last):
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 12\Multi_Source_Extraction\error_handling.py", line 20, in handle_csv
+    data = pd.read_csv("../Data/hospital_patients.csv")
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: '../Data/hospital_patients.csv'
+2026-10-31 16:23:29,902 - ERROR - JSON extraction failed
+Traceback (most recent call last):
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 12\Multi_Source_Extraction\error_handling.py", line 59, in handle_json
+    with open("../Data/online_courses.json", "r") as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../Data/online_courses.json'
+2026-10-31 16:25:06,542 - ERROR - CSV file not found
+Traceback (most recent call last):
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 12\Multi_Source_Extraction\error_handling.py", line 29, in handle_csv
+    data = pd.read_csv(file_path)
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\chandra sekhar\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Linkific Tasks\\Linkific-Tasks\\Day 12\\Data\\hospital_patients.csv'
+2026-10-31 16:25:06,923 - INFO - API extraction successful
+2026-10-31 16:25:06,924 - ERROR - JSON file not found
+Traceback (most recent call last):
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 12\Multi_Source_Extraction\error_handling.py", line 73, in handle_json
+    with open(file_path, "r", encoding="utf-8") as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Linkific Tasks\\Linkific-Tasks\\Day 12\\Data\\online_courses.json'
