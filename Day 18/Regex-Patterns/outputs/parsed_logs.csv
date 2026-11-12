@@ -1,0 +1,11 @@
+Timestamp,LogLevel,Message
+2026-11-12 09:00:00,INFO,Application started
+2026-11-12 09:05:10,INFO,User Rahul logged in
+2026-11-12 09:10:20,WARNING,Memory usage is high
+2026-11-12 09:15:30,ERROR,Database connection failed
+2026-11-12 09:20:40,INFO,Data processing started
+2026-11-12 09:25:50,ERROR,File not found
+2026-11-12 09:30:00,WARNING,API response is slow
+2026-11-12 09:35:15,INFO,Data processing completed
+2026-11-12 09:40:25,ERROR,Invalid customer record
+2026-11-12 09:45:35,INFO,Application stopped

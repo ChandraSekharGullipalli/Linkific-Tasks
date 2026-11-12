@@ -1,0 +1,7 @@
+CustomerID,Name,Email,Phone,Date,City
+101,Rahul Kumar,rahul@gmail.com,9876543210,12-11-2026,hyderabad
+102,Priyasharma,priya@yahoo.com,9876512345,25/12/2026,bangalore
+103,Anjali Devi,anjali@gmail.com,9123456789,01-01-2025,chennai
+104,Kiran Reddy,invalid-email,9876543210,15-06-2026,mumbai
+105,Arun Kumar,arun@gmail.com,9876512345,20-08-2026,delhi
+106,Neha Sharma,neha@company.in,9988776655,10-10-2026,pune

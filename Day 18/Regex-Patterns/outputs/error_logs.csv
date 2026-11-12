@@ -1,0 +1,4 @@
+Timestamp,LogLevel,Message
+2026-11-12 09:15:30,ERROR,Database connection failed
+2026-11-12 09:25:50,ERROR,File not found
+2026-11-12 09:40:25,ERROR,Invalid customer record

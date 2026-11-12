@@ -1,0 +1,7 @@
+CustomerID,Name,Email,Phone,Date,City,EmailValid,PhoneValid,DateValid
+101,Rahul Kumar,rahul@gmail.com,9876543210,2026-11-12,Hyderabad,True,True,True
+102,Priyasharma,priya@yahoo.com,9876512345,2026-12-25,Bangalore,True,True,True
+103,Anjali Devi,anjali@gmail.com,9123456789,2025-01-01,Chennai,True,True,True
+104,Kiran Reddy,invalid-email,9876543210,2026-06-15,Mumbai,False,True,True
+105,Arun Kumar,arun@gmail.com,9876512345,2026-08-20,Delhi,True,True,True
+106,Neha Sharma,neha@company.in,9988776655,2026-10-10,Pune,True,True,True

@@ -1,0 +1,3 @@
+LineNumber,Timestamp,LogLevel,Message
+4,2026-11-12 09:10:20,WARNING,Memory usage is high
+8,2026-11-12 09:30:00,WARNING,API response is slow

@@ -1,0 +1,8 @@
+
+CustomerID,Name,Email,Phone,Date,City
+101," RAHUL KUMAR ","rahul@gmail.com","+91 98765-43210","12-11-2026","Hyderabad"
+102,"priya@sharma","priya@yahoo.com","98765 12345","25/12/2026","Bangalore"
+103," Anjali Devi ","anjali@gmail.com","91-9123456789","01-01-2025","Chennai"
+104,"KIRAN REDDY","invalid-email","9876543210","15-06-2026","Mumbai"
+105," Arun Kumar ","arun@gmail.com","(98765) 12345","20-08-2026","Delhi"
+106,"NEHA SHARMA","neha@company.in","+91-9988776655","10-10-2026","Pune"
