@@ -1,0 +1,4 @@
+entity,input_records,output_records,duplicates_removed,sources
+customers,1005,1005,0,"PostgreSQL, Files"
+products,235,235,0,"PostgreSQL, Files, API"
+employees,15,15,0,"SQLite, Files, SFTP"

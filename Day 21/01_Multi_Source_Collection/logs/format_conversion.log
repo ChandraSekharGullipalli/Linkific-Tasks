@@ -1,0 +1,24 @@
+2026-11-16 12:11:32,780 - INFO - Source CSV loaded. Records: 5
+2026-11-16 12:11:32,785 - INFO - CSV conversion completed.
+2026-11-16 12:11:32,789 - INFO - JSON conversion completed.
+2026-11-16 12:11:32,792 - INFO - XML conversion completed.
+2026-11-16 12:11:33,047 - INFO - Parquet conversion completed.
+2026-11-16 12:11:33,049 - INFO - Avro conversion completed.
+2026-11-16 12:11:33,452 - INFO - CSV verification: 5 records - PASS
+2026-11-16 12:11:33,452 - INFO - JSON verification: 5 records - PASS
+2026-11-16 12:11:33,452 - INFO - XML verification: 5 records - PASS
+2026-11-16 12:11:33,452 - INFO - Parquet verification: 5 records - PASS
+2026-11-16 12:11:33,453 - INFO - Avro verification: 5 records - PASS
+2026-11-16 12:11:33,453 - INFO - All format conversions verified successfully.
+2026-11-16 15:48:01,643 - INFO - Source CSV loaded. Records: 5
+2026-11-16 15:48:01,671 - INFO - CSV conversion completed.
+2026-11-16 15:48:01,677 - INFO - JSON conversion completed.
+2026-11-16 15:48:01,683 - INFO - XML conversion completed.
+2026-11-16 15:48:01,762 - INFO - Parquet conversion completed.
+2026-11-16 15:48:01,764 - INFO - Avro conversion completed.
+2026-11-16 15:48:01,876 - INFO - CSV verification: 5 records - PASS
+2026-11-16 15:48:01,876 - INFO - JSON verification: 5 records - PASS
+2026-11-16 15:48:01,876 - INFO - XML verification: 5 records - PASS
+2026-11-16 15:48:01,876 - INFO - Parquet verification: 5 records - PASS
+2026-11-16 15:48:01,876 - INFO - Avro verification: 5 records - PASS
+2026-11-16 15:48:01,877 - INFO - All format conversions verified successfully.

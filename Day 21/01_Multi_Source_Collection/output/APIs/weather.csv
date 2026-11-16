@@ -1,0 +1,2 @@
+latitude,longitude,timezone,collection_time_utc,current.time,current.interval,current.temperature_2m,current.relative_humidity_2m,current.wind_speed_10m
+51.51147,-0.13078308,Europe/London,2026-11-16T04:58:50.477055+00:00,2026-11-16T04:45,900,6.2,79,13.3

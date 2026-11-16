@@ -1,0 +1,37 @@
+[
+    {
+        "employee_id": 1,
+        "employee_name": "Rahul Sharma",
+        "email": "rahul@example.com",
+        "department_id": 1,
+        "salary": 55000.0
+    },
+    {
+        "employee_id": 2,
+        "employee_name": "Priya Reddy",
+        "email": "priya@example.com",
+        "department_id": 2,
+        "salary": 48000.0
+    },
+    {
+        "employee_id": 3,
+        "employee_name": "Arjun Kumar",
+        "email": "arjun@example.com",
+        "department_id": 1,
+        "salary": 60000.0
+    },
+    {
+        "employee_id": 4,
+        "employee_name": "Sneha Rao",
+        "email": "sneha@example.com",
+        "department_id": 3,
+        "salary": 45000.0
+    },
+    {
+        "employee_id": 5,
+        "employee_name": "Kiran Das",
+        "email": "kiran@example.com",
+        "department_id": 2,
+        "salary": 52000.0
+    }
+]

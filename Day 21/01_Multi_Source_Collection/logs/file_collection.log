@@ -1,0 +1,21 @@
+2026-11-16 10:52:05,832 - INFO - =======================================================
+2026-11-16 10:52:05,833 - INFO - FILE DATA COLLECTION STARTED
+2026-11-16 10:52:05,833 - INFO - =======================================================
+2026-11-16 10:52:05,833 - INFO - Starting CSV collection
+2026-11-16 10:52:05,841 - INFO - CSV collection successful: 5 records
+2026-11-16 10:52:05,846 - INFO - CSV saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\Files\collected_customers.csv
+2026-11-16 10:52:05,846 - INFO - JSON saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\Files\collected_customers.json
+2026-11-16 10:52:05,847 - INFO - Records collected: 5
+2026-11-16 10:52:05,847 - INFO - Starting JSON collection
+2026-11-16 10:52:05,855 - INFO - JSON collection successful: 5 records
+2026-11-16 10:52:05,860 - INFO - CSV saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\Files\collected_products.csv
+2026-11-16 10:52:05,860 - INFO - JSON saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\Files\collected_products.json
+2026-11-16 10:52:05,860 - INFO - Records collected: 5
+2026-11-16 10:52:05,860 - INFO - Starting Excel collection
+2026-11-16 10:52:06,149 - INFO - Excel collection successful: 5 records
+2026-11-16 10:52:06,151 - INFO - CSV saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\Files\collected_employees.csv
+2026-11-16 10:52:06,152 - INFO - JSON saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\Files\collected_employees.json
+2026-11-16 10:52:06,153 - INFO - Records collected: 5
+2026-11-16 10:52:06,153 - INFO - =======================================================
+2026-11-16 10:52:06,154 - INFO - FILE DATA COLLECTION COMPLETED
+2026-11-16 10:52:06,154 - INFO - =======================================================

@@ -1,0 +1,17 @@
+2026-11-16 15:58:07,095 - INFO - Integration pipeline started.
+2026-11-16 15:58:07,123 - INFO - Loaded postgresql_customers: 1000 records
+2026-11-16 15:58:07,130 - INFO - Loaded file_customers: 5 records
+2026-11-16 15:58:07,149 - INFO - customers: input=1005, final=1005, duplicates=0
+2026-11-16 15:58:07,168 - INFO - Saved customers CSV and JSON outputs
+2026-11-16 15:58:07,179 - INFO - Loaded api_products: 30 records
+2026-11-16 15:58:07,191 - INFO - Loaded postgresql_products: 200 records
+2026-11-16 15:58:07,198 - INFO - Loaded file_products: 5 records
+2026-11-16 15:58:07,208 - INFO - products: input=235, final=235, duplicates=0
+2026-11-16 15:58:07,216 - INFO - Saved products CSV and JSON outputs
+2026-11-16 15:58:07,225 - INFO - Loaded sqlite_employees: 5 records
+2026-11-16 15:58:07,231 - INFO - Loaded file_employees: 5 records
+2026-11-16 15:58:07,238 - INFO - Loaded sftp_employees: 5 records
+2026-11-16 15:58:07,242 - INFO - employees: input=15, final=15, duplicates=0
+2026-11-16 15:58:07,248 - INFO - Saved employees CSV and JSON outputs
+2026-11-16 15:58:07,255 - INFO - Data lineage report created.
+2026-11-16 15:58:07,255 - INFO - Integration pipeline completed successfully.

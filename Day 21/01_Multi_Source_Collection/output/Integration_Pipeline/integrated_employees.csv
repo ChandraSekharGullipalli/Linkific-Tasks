@@ -1,0 +1,16 @@
+source_record_id,employee_name,email,department,department_id,salary,source_system,ingested_at
+1,Rahul Sharma,rahul@example.com,,1,55000.0,sqlite_employees,2026-11-16T10:28:07.221679+00:00
+2,Priya Reddy,priya@example.com,,2,48000.0,sqlite_employees,2026-11-16T10:28:07.221679+00:00
+3,Arjun Kumar,arjun@example.com,,1,60000.0,sqlite_employees,2026-11-16T10:28:07.221679+00:00
+4,Sneha Rao,sneha@example.com,,3,45000.0,sqlite_employees,2026-11-16T10:28:07.221679+00:00
+5,Kiran Das,kiran@example.com,,2,52000.0,sqlite_employees,2026-11-16T10:28:07.221679+00:00
+201,Amit,,IT,,45000.0,file_employees,2026-11-16T10:28:07.227797+00:00
+202,Neha,,HR,,40000.0,file_employees,2026-11-16T10:28:07.227797+00:00
+203,Vijay,,Finance,,50000.0,file_employees,2026-11-16T10:28:07.227797+00:00
+204,Pooja,,IT,,48000.0,file_employees,2026-11-16T10:28:07.227797+00:00
+205,Ravi,,Sales,,42000.0,file_employees,2026-11-16T10:28:07.227797+00:00
+301,Rahul,,IT,,45000.0,sftp_employees,2026-11-16T10:28:07.235211+00:00
+302,Priya,,HR,,40000.0,sftp_employees,2026-11-16T10:28:07.235211+00:00
+303,Arjun,,Finance,,50000.0,sftp_employees,2026-11-16T10:28:07.235211+00:00
+304,Sneha,,IT,,48000.0,sftp_employees,2026-11-16T10:28:07.235211+00:00
+305,Kiran,,Sales,,42000.0,sftp_employees,2026-11-16T10:28:07.235211+00:00

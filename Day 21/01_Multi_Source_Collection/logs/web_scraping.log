@@ -1,0 +1,6 @@
+2026-11-16 10:56:37,189 - INFO - Starting web scraping
+2026-11-16 10:56:37,189 - INFO - Website: https://quotes.toscrape.com/
+2026-11-16 10:56:45,154 - INFO - Records collected: 10
+2026-11-16 10:56:45,154 - INFO - CSV saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\Web_Scraping\scraped_quotes.csv
+2026-11-16 10:56:45,154 - INFO - JSON saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\Web_Scraping\scraped_quotes.json
+2026-11-16 10:56:45,155 - INFO - Web scraping completed successfully

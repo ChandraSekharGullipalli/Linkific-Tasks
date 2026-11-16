@@ -1,0 +1,26 @@
+2026-11-16 10:37:16,165 - INFO - DATABASE COLLECTION PIPELINE STARTED
+2026-11-16 10:37:16,165 - INFO - ==================================================
+2026-11-16 10:37:16,165 - INFO - POSTGRESQL DATA COLLECTION STARTED
+2026-11-16 10:37:16,165 - INFO - ==================================================
+2026-11-16 10:37:16,442 - INFO - PostgreSQL connection successful.
+2026-11-16 10:37:16,450 - INFO - postgresql: Found 5 tables
+2026-11-16 10:37:16,519 - INFO - Extracted customers: 1000 records
+2026-11-16 10:37:16,531 - INFO - Saved postgresql_customers: 1000 records
+2026-11-16 10:37:16,537 - INFO - Extracted orders: 1000 records
+2026-11-16 10:37:16,544 - INFO - Saved postgresql_orders: 1000 records
+2026-11-16 10:37:16,559 - INFO - Extracted order_items: 2516 records
+2026-11-16 10:37:16,575 - INFO - Saved postgresql_order_items: 2516 records
+2026-11-16 10:37:16,581 - INFO - Extracted products: 200 records
+2026-11-16 10:37:16,584 - INFO - Saved postgresql_products: 200 records
+2026-11-16 10:37:16,593 - INFO - Extracted transactions: 1000 records
+2026-11-16 10:37:16,602 - INFO - Saved postgresql_transactions: 1000 records
+2026-11-16 10:37:16,603 - INFO - ==================================================
+2026-11-16 10:37:16,604 - INFO - SQLITE DATA COLLECTION STARTED
+2026-11-16 10:37:16,604 - INFO - ==================================================
+2026-11-16 10:37:16,637 - INFO - SQLite database ready: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\Databases\source_data.db
+2026-11-16 10:37:16,638 - INFO - sqlite: Found 2 tables
+2026-11-16 10:37:16,639 - INFO - Extracted departments: 3 records
+2026-11-16 10:37:16,641 - INFO - Saved sqlite_departments: 3 records
+2026-11-16 10:37:16,642 - INFO - Extracted employees: 5 records
+2026-11-16 10:37:16,644 - INFO - Saved sqlite_employees: 5 records
+2026-11-16 10:37:16,645 - INFO - DATABASE COLLECTION PIPELINE COMPLETED

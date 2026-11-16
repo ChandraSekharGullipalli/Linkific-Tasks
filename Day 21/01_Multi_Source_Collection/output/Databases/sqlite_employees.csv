@@ -1,0 +1,6 @@
+employee_id,employee_name,email,department_id,salary
+1,Rahul Sharma,rahul@example.com,1,55000.0
+2,Priya Reddy,priya@example.com,2,48000.0
+3,Arjun Kumar,arjun@example.com,1,60000.0
+4,Sneha Rao,sneha@example.com,3,45000.0
+5,Kiran Das,kiran@example.com,2,52000.0

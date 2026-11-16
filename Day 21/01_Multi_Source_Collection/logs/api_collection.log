@@ -1,0 +1,24 @@
+2026-11-16 10:28:32,669 - INFO - ============================================================
+2026-11-16 10:28:32,670 - INFO - MULTI-SOURCE API DATA COLLECTION STARTED
+2026-11-16 10:28:32,670 - INFO - ============================================================
+2026-11-16 10:28:32,670 - INFO - Starting API 1: JSONPlaceholder
+2026-11-16 10:28:32,670 - INFO - Connecting to API: https://jsonplaceholder.typicode.com/users
+2026-11-16 10:28:33,616 - INFO - API data collected successfully.
+2026-11-16 10:28:33,625 - INFO - JSON saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\APIs\users.json
+2026-11-16 10:28:33,626 - INFO - CSV saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\APIs\users.csv
+2026-11-16 10:28:33,626 - INFO - Total records: 10
+2026-11-16 10:28:33,626 - INFO - Starting API 2: DummyJSON
+2026-11-16 10:28:33,626 - INFO - Connecting to API: https://dummyjson.com/products
+2026-11-16 10:28:49,560 - INFO - API data collected successfully.
+2026-11-16 10:28:49,569 - INFO - JSON saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\APIs\products.json
+2026-11-16 10:28:49,569 - INFO - CSV saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\APIs\products.csv
+2026-11-16 10:28:49,570 - INFO - Total records: 30
+2026-11-16 10:28:49,570 - INFO - Starting API 3: Open-Meteo
+2026-11-16 10:28:49,570 - INFO - Connecting to API: https://api.open-meteo.com/v1/forecast
+2026-11-16 10:28:50,476 - INFO - API data collected successfully.
+2026-11-16 10:28:50,483 - INFO - JSON saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\APIs\weather.json
+2026-11-16 10:28:50,483 - INFO - CSV saved: C:\Linkific Tasks\Linkific-Tasks\Day 21\01_Multi_Source_Collection\output\APIs\weather.csv
+2026-11-16 10:28:50,483 - INFO - Total records: 1
+2026-11-16 10:28:50,483 - INFO - ============================================================
+2026-11-16 10:28:50,483 - INFO - API DATA COLLECTION COMPLETED
+2026-11-16 10:28:50,484 - INFO - ============================================================

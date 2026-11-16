@@ -1,0 +1,8 @@
+2026-11-16 12:05:28,498 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2026-11-16 12:05:28,545 - INFO - Authentication (publickey) successful!
+2026-11-16 12:05:28,622 - INFO - [chan 0] Opened sftp connection (server version 3)
+2026-11-16 12:05:28,623 - INFO - Connected to SFTP server.
+2026-11-16 12:05:28,625 - INFO - Uploaded file: employees.csv
+2026-11-16 12:05:28,631 - INFO - Downloaded file: employees_downloaded_paramiko.csv
+2026-11-16 12:05:28,650 - INFO - Validation successful. Total records: 5
+2026-11-16 12:05:28,650 - INFO - [chan 0] sftp session closed.

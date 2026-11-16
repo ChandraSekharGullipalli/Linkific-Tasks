@@ -1,0 +1,27 @@
+[
+    {
+        "product_id": 101,
+        "product_name": "Laptop",
+        "price": 55000
+    },
+    {
+        "product_id": 102,
+        "product_name": "Mobile",
+        "price": 25000
+    },
+    {
+        "product_id": 103,
+        "product_name": "Keyboard",
+        "price": 1500
+    },
+    {
+        "product_id": 104,
+        "product_name": "Mouse",
+        "price": 800
+    },
+    {
+        "product_id": 105,
+        "product_name": "Monitor",
+        "price": 12000
+    }
+]
