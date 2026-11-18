@@ -1,0 +1,131 @@
+2026-11-18 15:33:40,867 | INFO | ============================================================
+2026-11-18 15:33:40,867 | INFO | DAY 23 DATA INGESTION PIPELINE STARTED
+2026-11-18 15:33:40,867 | INFO | START TIME: 2026-11-18T15:33:40.867542
+2026-11-18 15:33:40,868 | INFO | ============================================================
+2026-11-18 15:33:40,868 | INFO | ============================================================
+2026-11-18 15:33:40,868 | INFO | STARTING: API Data Collection
+2026-11-18 15:33:40,868 | INFO | SCRIPT: C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\api\api_collector.py
+2026-11-18 15:33:53,204 | WARNING | API Data Collection MESSAGES:
+2026-11-18 15:33:41,360 | INFO | ============================================================
+2026-11-18 15:33:41,360 | INFO | DAY 23 API DATA COLLECTION STARTED
+2026-11-18 15:33:41,360 | INFO | ============================================================
+2026-11-18 15:33:41,361 | INFO | Starting GitHub collection
+2026-11-18 15:33:41,361 | INFO | Using GitHub unauthenticated access
+2026-11-18 15:33:42,697 | INFO | GitHub page 1 collected: 10 records
+2026-11-18 15:33:43,461 | INFO | GitHub page 2 collected: 10 records
+2026-11-18 15:33:44,162 | INFO | GitHub page 3 collected: 10 records
+2026-11-18 15:33:44,164 | INFO | github_repositories: saved 30 records to C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\api\github_repositories_20261118_100344.json
+2026-11-18 15:33:44,165 | INFO | GitHub total records: 30
+2026-11-18 15:33:44,165 | INFO | Starting JSONPlaceholder collection
+2026-11-18 15:33:46,665 | INFO | JSONPlaceholder page 1 collected: 20 records
+2026-11-18 15:33:47,430 | INFO | JSONPlaceholder page 2 collected: 20 records
+2026-11-18 15:33:48,246 | INFO | JSONPlaceholder page 3 collected: 20 records
+2026-11-18 15:33:48,247 | INFO | jsonplaceholder_posts: saved 60 records to C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\api\jsonplaceholder_posts_20261118_100348.json
+2026-11-18 15:33:48,247 | INFO | JSONPlaceholder total records: 60
+2026-11-18 15:33:48,247 | INFO | Starting Open Library collection
+2026-11-18 15:33:52,174 | INFO | Open Library page 1 collected: 10 records
+2026-11-18 15:33:52,649 | INFO | Open Library page 2 collected: 10 records
+2026-11-18 15:33:53,154 | INFO | Open Library page 3 collected: 10 records
+2026-11-18 15:33:53,156 | INFO | open_library_books: saved 30 records to C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\api\open_library_books_20261118_100353.json
+2026-11-18 15:33:53,156 | INFO | Open Library total records: 30
+2026-11-18 15:33:53,168 | INFO | ============================================================
+2026-11-18 15:33:53,168 | INFO | API DATA COLLECTION COMPLETED
+2026-11-18 15:33:53,168 | INFO | ============================================================
+2026-11-18 15:33:53,205 | INFO | SUCCESS: API Data Collection
+2026-11-18 15:33:53,205 | INFO | FINISHED: API Data Collection | Status: SUCCESS | Duration: 12.34 seconds
+2026-11-18 15:33:53,205 | INFO | ============================================================
+2026-11-18 15:33:53,205 | INFO | STARTING: Web Scraping
+2026-11-18 15:33:53,205 | INFO | SCRIPT: C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\scraping\product_scraper.py
+2026-11-18 15:34:01,535 | WARNING | Web Scraping MESSAGES:
+2026-11-18 15:33:53,618 | INFO | ============================================================
+2026-11-18 15:33:53,619 | INFO | DAY 23 WEB SCRAPING STARTED
+2026-11-18 15:33:53,619 | INFO | ============================================================
+2026-11-18 15:33:53,619 | INFO | Scraping page 1
+2026-11-18 15:33:56,421 | INFO | Successfully fetched: https://books.toscrape.com/
+2026-11-18 15:33:56,552 | INFO | Page 1: 20 products extracted
+2026-11-18 15:33:57,553 | INFO | Scraping page 2
+2026-11-18 15:33:58,712 | INFO | Successfully fetched: https://books.toscrape.com/catalogue/page-2.html
+2026-11-18 15:33:58,732 | INFO | Page 2: 20 products extracted
+2026-11-18 15:33:59,733 | INFO | Scraping page 3
+2026-11-18 15:34:00,483 | INFO | Successfully fetched: https://books.toscrape.com/catalogue/page-3.html
+2026-11-18 15:34:00,502 | INFO | Page 3: 20 products extracted
+2026-11-18 15:34:01,507 | INFO | Saved 60 products to C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\scraped\scraped_products_20261118_100401.json
+2026-11-18 15:34:01,507 | INFO | Total products collected: 60
+2026-11-18 15:34:01,507 | INFO | ============================================================
+2026-11-18 15:34:01,507 | INFO | WEB SCRAPING COMPLETED
+2026-11-18 15:34:01,507 | INFO | ============================================================
+2026-11-18 15:34:01,536 | INFO | SUCCESS: Web Scraping
+2026-11-18 15:34:01,536 | INFO | FINISHED: Web Scraping | Status: SUCCESS | Duration: 8.33 seconds
+2026-11-18 15:34:01,536 | INFO | ============================================================
+2026-11-18 15:34:01,536 | INFO | STARTING: File Processing
+2026-11-18 15:34:01,537 | INFO | SCRIPT: C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\files\file_collector.py
+2026-11-18 15:34:03,244 | WARNING | File Processing MESSAGES:
+2026-11-18 15:34:02,593 | INFO | ============================================================
+2026-11-18 15:34:02,594 | INFO | DAY 23 FILE PROCESSING STARTED
+2026-11-18 15:34:02,594 | INFO | ============================================================
+2026-11-18 15:34:02,594 | INFO | Processing file: customers.csv
+2026-11-18 15:34:02,594 | INFO | Reading CSV: customers.csv
+2026-11-18 15:34:02,727 | INFO | Removed 0 duplicate records
+2026-11-18 15:34:02,756 | INFO | Processed customers.csv: 5 records
+2026-11-18 15:34:02,756 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\customers_csv_staged.json
+2026-11-18 15:34:02,756 | INFO | Processing file: customers.xlsx
+2026-11-18 15:34:02,756 | INFO | Reading Excel: customers.xlsx
+2026-11-18 15:34:03,116 | INFO | Removed 0 duplicate records
+2026-11-18 15:34:03,118 | INFO | Processed customers.xlsx: 5 records
+2026-11-18 15:34:03,118 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\customers_xlsx_staged.json
+2026-11-18 15:34:03,118 | INFO | Processing file: orders.json
+2026-11-18 15:34:03,118 | INFO | Reading JSON: orders.json
+2026-11-18 15:34:03,121 | INFO | Removed 0 duplicate records
+2026-11-18 15:34:03,127 | INFO | Processed orders.json: 3 records
+2026-11-18 15:34:03,127 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\orders_json_staged.json
+2026-11-18 15:34:03,127 | INFO | ------------------------------------------------------------
+2026-11-18 15:34:03,127 | INFO | TOTAL FILES: 3
+2026-11-18 15:34:03,127 | INFO | SUCCESSFUL: 3
+2026-11-18 15:34:03,127 | INFO | FAILED: 0
+2026-11-18 15:34:03,127 | INFO | ============================================================
+2026-11-18 15:34:03,127 | INFO | FILE PROCESSING COMPLETED
+2026-11-18 15:34:03,244 | INFO | SUCCESS: File Processing
+2026-11-18 15:34:03,244 | INFO | FINISHED: File Processing | Status: SUCCESS | Duration: 1.71 seconds
+2026-11-18 15:34:03,244 | INFO | ============================================================
+2026-11-18 15:34:03,244 | INFO | STARTING: Database Extraction
+2026-11-18 15:34:03,244 | INFO | SCRIPT: C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\database\database_extractor.py
+2026-11-18 15:34:03,504 | WARNING | Database Extraction MESSAGES:
+2026-11-18 15:34:03,419 | INFO | ============================================================
+2026-11-18 15:34:03,420 | INFO | DAY 23 DATABASE EXTRACTION STARTED
+2026-11-18 15:34:03,420 | INFO | ============================================================
+2026-11-18 15:34:03,475 | INFO | Connected to PostgreSQL database: synthetic_data_db
+2026-11-18 15:34:03,476 | INFO | Extracting customers records after ID 1000
+2026-11-18 15:34:03,479 | INFO | SUCCESS: customers | Records: 0 | New watermark: 1000
+2026-11-18 15:34:03,479 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\customers_20261118_153403_479191.json
+2026-11-18 15:34:03,479 | INFO | Extracting order_items records after ID 2516
+2026-11-18 15:34:03,482 | INFO | SUCCESS: order_items | Records: 0 | New watermark: 2516
+2026-11-18 15:34:03,482 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\order_items_20261118_153403_482110.json
+2026-11-18 15:34:03,482 | INFO | Extracting orders records after ID 1000
+2026-11-18 15:34:03,484 | INFO | SUCCESS: orders | Records: 0 | New watermark: 1000
+2026-11-18 15:34:03,484 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\orders_20261118_153403_484412.json
+2026-11-18 15:34:03,485 | INFO | Extracting products records after ID 200
+2026-11-18 15:34:03,486 | INFO | SUCCESS: products | Records: 0 | New watermark: 200
+2026-11-18 15:34:03,486 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\products_20261118_153403_486159.json
+2026-11-18 15:34:03,486 | INFO | Extracting transactions records after ID 1000
+2026-11-18 15:34:03,489 | INFO | SUCCESS: transactions | Records: 0 | New watermark: 1000
+2026-11-18 15:34:03,489 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\transactions_20261118_153403_489119.json
+2026-11-18 15:34:03,491 | INFO | ------------------------------------------------------------
+2026-11-18 15:34:03,491 | INFO | TOTAL RECORDS EXTRACTED: 0
+2026-11-18 15:34:03,491 | INFO | SUCCESSFUL TABLES: 5
+2026-11-18 15:34:03,491 | INFO | FAILED TABLES: 0
+2026-11-18 15:34:03,491 | INFO | WATERMARK FILE: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\watermarks.json
+2026-11-18 15:34:03,491 | INFO | DATABASE EXTRACTION COMPLETED
+2026-11-18 15:34:03,491 | INFO | ============================================================
+2026-11-18 15:34:03,491 | INFO | PostgreSQL connection closed
+2026-11-18 15:34:03,505 | INFO | SUCCESS: Database Extraction
+2026-11-18 15:34:03,505 | INFO | FINISHED: Database Extraction | Status: SUCCESS | Duration: 0.26 seconds
+2026-11-18 15:34:03,506 | INFO | ============================================================
+2026-11-18 15:34:03,506 | INFO | DATA INGESTION PIPELINE FINISHED
+2026-11-18 15:34:03,506 | INFO | TOTAL TASKS: 4
+2026-11-18 15:34:03,506 | INFO | SUCCESSFUL TASKS: 4
+2026-11-18 15:34:03,506 | INFO | FAILED TASKS: 0
+2026-11-18 15:34:03,506 | INFO | TOTAL DURATION: 22.64 seconds
+2026-11-18 15:34:03,506 | INFO | OVERALL STATUS: SUCCESS
+2026-11-18 15:34:03,506 | INFO | SUMMARY FILE: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\pipeline\pipeline_summary_20261118_153403.json
+2026-11-18 15:34:03,506 | INFO | LOG FILE: C:\Linkific Tasks\Linkific-Tasks\Day 22\logs\ingestion_pipeline.log
+2026-11-18 15:34:03,506 | INFO | ============================================================

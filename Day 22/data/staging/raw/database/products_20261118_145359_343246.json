@@ -1,0 +1,10 @@
+{
+    "source_database": "synthetic_data_db",
+    "source_table": "products",
+    "primary_key": "product_id",
+    "extraction_type": "incremental",
+    "previous_watermark": 200,
+    "record_count": 0,
+    "extracted_at": "2026-11-18T14:53:59.343351",
+    "records": []
+}

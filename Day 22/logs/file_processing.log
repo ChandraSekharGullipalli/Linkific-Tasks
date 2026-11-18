@@ -1,0 +1,72 @@
+2026-11-18 14:27:49,399 | INFO | ============================================================
+2026-11-18 14:27:49,400 | INFO | DAY 23 FILE PROCESSING STARTED
+2026-11-18 14:27:49,400 | INFO | ============================================================
+2026-11-18 14:27:49,401 | INFO | Processing file: customers.csv
+2026-11-18 14:27:49,401 | INFO | Reading CSV: customers.csv
+2026-11-18 14:27:49,479 | INFO | Removed 0 duplicate records
+2026-11-18 14:27:49,538 | INFO | Processed customers.csv: 5 records
+2026-11-18 14:27:49,540 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\customers_staged.json
+2026-11-18 14:27:49,550 | INFO | Processing file: customers.xlsx
+2026-11-18 14:27:49,556 | INFO | Reading Excel: customers.xlsx
+2026-11-18 14:27:50,002 | INFO | Removed 0 duplicate records
+2026-11-18 14:27:50,008 | INFO | Processed customers.xlsx: 5 records
+2026-11-18 14:27:50,008 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\customers_staged.json
+2026-11-18 14:27:50,009 | INFO | Processing file: orders.json
+2026-11-18 14:27:50,009 | INFO | Reading JSON: orders.json
+2026-11-18 14:27:50,012 | INFO | Removed 0 duplicate records
+2026-11-18 14:27:50,023 | INFO | Processed orders.json: 3 records
+2026-11-18 14:27:50,023 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\orders_staged.json
+2026-11-18 14:27:50,023 | INFO | ------------------------------------------------------------
+2026-11-18 14:27:50,024 | INFO | TOTAL FILES: 3
+2026-11-18 14:27:50,024 | INFO | SUCCESSFUL: 3
+2026-11-18 14:27:50,024 | INFO | FAILED: 0
+2026-11-18 14:27:50,024 | INFO | ============================================================
+2026-11-18 14:27:50,024 | INFO | FILE PROCESSING COMPLETED
+2026-11-18 14:31:07,945 | INFO | ============================================================
+2026-11-18 14:31:07,952 | INFO | DAY 23 FILE PROCESSING STARTED
+2026-11-18 14:31:07,959 | INFO | ============================================================
+2026-11-18 14:31:07,960 | INFO | Processing file: customers.csv
+2026-11-18 14:31:07,961 | INFO | Reading CSV: customers.csv
+2026-11-18 14:31:08,014 | INFO | Removed 0 duplicate records
+2026-11-18 14:31:08,026 | INFO | Processed customers.csv: 5 records
+2026-11-18 14:31:08,027 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\customers_csv_staged.json
+2026-11-18 14:31:08,027 | INFO | Processing file: customers.xlsx
+2026-11-18 14:31:08,027 | INFO | Reading Excel: customers.xlsx
+2026-11-18 14:31:08,556 | INFO | Removed 0 duplicate records
+2026-11-18 14:31:08,560 | INFO | Processed customers.xlsx: 5 records
+2026-11-18 14:31:08,561 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\customers_xlsx_staged.json
+2026-11-18 14:31:08,562 | INFO | Processing file: orders.json
+2026-11-18 14:31:08,562 | INFO | Reading JSON: orders.json
+2026-11-18 14:31:08,566 | INFO | Removed 0 duplicate records
+2026-11-18 14:31:08,571 | INFO | Processed orders.json: 3 records
+2026-11-18 14:31:08,571 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\orders_json_staged.json
+2026-11-18 14:31:08,572 | INFO | ------------------------------------------------------------
+2026-11-18 14:31:08,572 | INFO | TOTAL FILES: 3
+2026-11-18 14:31:08,573 | INFO | SUCCESSFUL: 3
+2026-11-18 14:31:08,573 | INFO | FAILED: 0
+2026-11-18 14:31:08,573 | INFO | ============================================================
+2026-11-18 14:31:08,573 | INFO | FILE PROCESSING COMPLETED
+2026-11-18 15:34:02,593 | INFO | ============================================================
+2026-11-18 15:34:02,594 | INFO | DAY 23 FILE PROCESSING STARTED
+2026-11-18 15:34:02,594 | INFO | ============================================================
+2026-11-18 15:34:02,594 | INFO | Processing file: customers.csv
+2026-11-18 15:34:02,594 | INFO | Reading CSV: customers.csv
+2026-11-18 15:34:02,727 | INFO | Removed 0 duplicate records
+2026-11-18 15:34:02,756 | INFO | Processed customers.csv: 5 records
+2026-11-18 15:34:02,756 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\customers_csv_staged.json
+2026-11-18 15:34:02,756 | INFO | Processing file: customers.xlsx
+2026-11-18 15:34:02,756 | INFO | Reading Excel: customers.xlsx
+2026-11-18 15:34:03,116 | INFO | Removed 0 duplicate records
+2026-11-18 15:34:03,118 | INFO | Processed customers.xlsx: 5 records
+2026-11-18 15:34:03,118 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\customers_xlsx_staged.json
+2026-11-18 15:34:03,118 | INFO | Processing file: orders.json
+2026-11-18 15:34:03,118 | INFO | Reading JSON: orders.json
+2026-11-18 15:34:03,121 | INFO | Removed 0 duplicate records
+2026-11-18 15:34:03,127 | INFO | Processed orders.json: 3 records
+2026-11-18 15:34:03,127 | INFO | Staging output: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\files\orders_json_staged.json
+2026-11-18 15:34:03,127 | INFO | ------------------------------------------------------------
+2026-11-18 15:34:03,127 | INFO | TOTAL FILES: 3
+2026-11-18 15:34:03,127 | INFO | SUCCESSFUL: 3
+2026-11-18 15:34:03,127 | INFO | FAILED: 0
+2026-11-18 15:34:03,127 | INFO | ============================================================
+2026-11-18 15:34:03,127 | INFO | FILE PROCESSING COMPLETED

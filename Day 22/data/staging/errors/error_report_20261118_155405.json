@@ -1,0 +1,14 @@
+{
+    "generated_at": "2026-11-18T15:54:05.339341",
+    "total_errors": 1,
+    "errors": [
+        {
+            "timestamp": "2026-11-18T15:54:05.332515",
+            "source": "error_handler_test",
+            "record_id": 3,
+            "error_type": "TypeError",
+            "error_message": "Only numeric values are allowed",
+            "traceback": "Traceback (most recent call last):\n  File \"C:\\Linkific Tasks\\Linkific-Tasks\\Day 22\\src\\ingestion\\utils\\error_handler.py\", line 110, in safe_process\n    result = process_function(record)\n  File \"C:\\Linkific Tasks\\Linkific-Tasks\\Day 22\\src\\ingestion\\utils\\error_handler.py\", line 145, in sample_processor\n    raise TypeError(\n        \"Only numeric values are allowed\"\n    )\nTypeError: Only numeric values are allowed\n"
+        }
+    ]
+}

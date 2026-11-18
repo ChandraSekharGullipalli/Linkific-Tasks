@@ -1,0 +1,34 @@
+2026-11-18 14:21:41,680 | INFO | ============================================================
+2026-11-18 14:21:41,681 | INFO | DAY 23 WEB SCRAPING STARTED
+2026-11-18 14:21:41,681 | INFO | ============================================================
+2026-11-18 14:21:41,682 | INFO | Scraping page 1
+2026-11-18 14:21:50,548 | INFO | Successfully fetched: https://books.toscrape.com/
+2026-11-18 14:21:50,701 | INFO | Page 1: 20 products extracted
+2026-11-18 14:21:51,703 | INFO | Scraping page 2
+2026-11-18 14:21:52,674 | INFO | Successfully fetched: https://books.toscrape.com/catalogue/page-2.html
+2026-11-18 14:21:52,713 | INFO | Page 2: 20 products extracted
+2026-11-18 14:21:53,715 | INFO | Scraping page 3
+2026-11-18 14:21:54,461 | INFO | Successfully fetched: https://books.toscrape.com/catalogue/page-3.html
+2026-11-18 14:21:54,494 | INFO | Page 3: 20 products extracted
+2026-11-18 14:21:55,501 | INFO | Saved 60 products to C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\scraped\scraped_products_20261118_085155.json
+2026-11-18 14:21:55,502 | INFO | Total products collected: 60
+2026-11-18 14:21:55,502 | INFO | ============================================================
+2026-11-18 14:21:55,502 | INFO | WEB SCRAPING COMPLETED
+2026-11-18 14:21:55,502 | INFO | ============================================================
+2026-11-18 15:33:53,618 | INFO | ============================================================
+2026-11-18 15:33:53,619 | INFO | DAY 23 WEB SCRAPING STARTED
+2026-11-18 15:33:53,619 | INFO | ============================================================
+2026-11-18 15:33:53,619 | INFO | Scraping page 1
+2026-11-18 15:33:56,421 | INFO | Successfully fetched: https://books.toscrape.com/
+2026-11-18 15:33:56,552 | INFO | Page 1: 20 products extracted
+2026-11-18 15:33:57,553 | INFO | Scraping page 2
+2026-11-18 15:33:58,712 | INFO | Successfully fetched: https://books.toscrape.com/catalogue/page-2.html
+2026-11-18 15:33:58,732 | INFO | Page 2: 20 products extracted
+2026-11-18 15:33:59,733 | INFO | Scraping page 3
+2026-11-18 15:34:00,483 | INFO | Successfully fetched: https://books.toscrape.com/catalogue/page-3.html
+2026-11-18 15:34:00,502 | INFO | Page 3: 20 products extracted
+2026-11-18 15:34:01,507 | INFO | Saved 60 products to C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\scraped\scraped_products_20261118_100401.json
+2026-11-18 15:34:01,507 | INFO | Total products collected: 60
+2026-11-18 15:34:01,507 | INFO | ============================================================
+2026-11-18 15:34:01,507 | INFO | WEB SCRAPING COMPLETED
+2026-11-18 15:34:01,507 | INFO | ============================================================

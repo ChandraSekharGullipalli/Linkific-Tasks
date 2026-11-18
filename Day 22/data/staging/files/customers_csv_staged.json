@@ -1,0 +1,44 @@
+{
+    "source_file": "customers.csv",
+    "file_type": ".csv",
+    "processed_at": "2026-11-18T10:04:02.755390+00:00",
+    "original_records": 5,
+    "processed_records": 5,
+    "records": [
+        {
+            "customer_id": 1,
+            "customer_name": "Rahul Sharma",
+            "email": "rahul@example.com",
+            "city": "Hyderabad",
+            "order_amount": 2500
+        },
+        {
+            "customer_id": 2,
+            "customer_name": "Priya Reddy",
+            "email": "priya@example.com",
+            "city": "Bengaluru",
+            "order_amount": 4200
+        },
+        {
+            "customer_id": 3,
+            "customer_name": "Arjun Kumar",
+            "email": "arjun@example.com",
+            "city": "Chennai",
+            "order_amount": 1800
+        },
+        {
+            "customer_id": 4,
+            "customer_name": "Neha Singh",
+            "email": "neha@example.com",
+            "city": "Mumbai",
+            "order_amount": 3500
+        },
+        {
+            "customer_id": 5,
+            "customer_name": "Kiran Rao",
+            "email": "kiran@example.com",
+            "city": "Hyderabad",
+            "order_amount": 5200
+        }
+    ]
+}

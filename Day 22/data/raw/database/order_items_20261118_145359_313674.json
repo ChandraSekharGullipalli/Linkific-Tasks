@@ -1,0 +1,10 @@
+{
+    "source_database": "synthetic_data_db",
+    "source_table": "order_items",
+    "primary_key": "order_item_id",
+    "extraction_type": "incremental",
+    "previous_watermark": 2516,
+    "record_count": 0,
+    "extracted_at": "2026-11-18T14:53:59.313818",
+    "records": []
+}

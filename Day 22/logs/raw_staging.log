@@ -1,0 +1,42 @@
+2026-11-18 15:40:43,289 | INFO | ============================================================
+2026-11-18 15:40:43,290 | INFO | RAW DATA STAGING STARTED
+2026-11-18 15:40:43,290 | INFO | ============================================================
+2026-11-18 15:40:43,290 | INFO | PROCESSING SOURCE: api
+2026-11-18 15:40:43,292 | INFO | COPIED: github_repositories_20261118_084201.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\api\github_repositories_20261118_084201.json
+2026-11-18 15:40:43,293 | INFO | COPIED: github_repositories_20261118_100344.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\api\github_repositories_20261118_100344.json
+2026-11-18 15:40:43,295 | INFO | COPIED: jsonplaceholder_posts_20261118_084206.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\api\jsonplaceholder_posts_20261118_084206.json
+2026-11-18 15:40:43,296 | INFO | COPIED: jsonplaceholder_posts_20261118_100348.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\api\jsonplaceholder_posts_20261118_100348.json
+2026-11-18 15:40:43,297 | INFO | COPIED: open_library_books_20261118_084210.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\api\open_library_books_20261118_084210.json
+2026-11-18 15:40:43,299 | INFO | COPIED: open_library_books_20261118_100353.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\api\open_library_books_20261118_100353.json
+2026-11-18 15:40:43,299 | INFO | PROCESSING SOURCE: scraped
+2026-11-18 15:40:43,301 | INFO | COPIED: scraped_products_20261118_085155.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\scraped\scraped_products_20261118_085155.json
+2026-11-18 15:40:43,303 | INFO | COPIED: scraped_products_20261118_100401.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\scraped\scraped_products_20261118_100401.json
+2026-11-18 15:40:43,303 | INFO | PROCESSING SOURCE: database
+2026-11-18 15:40:43,307 | INFO | COPIED: customers_20261118_144930_025048.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\customers_20261118_144930_025048.json
+2026-11-18 15:40:43,309 | INFO | COPIED: customers_20261118_145359_295943.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\customers_20261118_145359_295943.json
+2026-11-18 15:40:43,310 | INFO | COPIED: customers_20261118_145516_401878.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\customers_20261118_145516_401878.json
+2026-11-18 15:40:43,311 | INFO | COPIED: customers_20261118_153403_479191.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\customers_20261118_153403_479191.json
+2026-11-18 15:40:43,314 | INFO | COPIED: order_items_20261118_144930_153652.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\order_items_20261118_144930_153652.json
+2026-11-18 15:40:43,316 | INFO | COPIED: order_items_20261118_145359_313674.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\order_items_20261118_145359_313674.json
+2026-11-18 15:40:43,317 | INFO | COPIED: order_items_20261118_145516_406901.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\order_items_20261118_145516_406901.json
+2026-11-18 15:40:43,320 | INFO | COPIED: order_items_20261118_153403_482110.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\order_items_20261118_153403_482110.json
+2026-11-18 15:40:43,322 | INFO | COPIED: orders_20261118_144930_204045.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\orders_20261118_144930_204045.json
+2026-11-18 15:40:43,324 | INFO | COPIED: orders_20261118_145359_325924.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\orders_20261118_145359_325924.json
+2026-11-18 15:40:43,325 | INFO | COPIED: orders_20261118_145516_412505.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\orders_20261118_145516_412505.json
+2026-11-18 15:40:43,326 | INFO | COPIED: orders_20261118_153403_484412.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\orders_20261118_153403_484412.json
+2026-11-18 15:40:43,328 | INFO | COPIED: products_20261118_144930_216972.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\products_20261118_144930_216972.json
+2026-11-18 15:40:43,330 | INFO | COPIED: products_20261118_145359_343246.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\products_20261118_145359_343246.json
+2026-11-18 15:40:43,333 | INFO | COPIED: products_20261118_145516_419236.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\products_20261118_145516_419236.json
+2026-11-18 15:40:43,334 | INFO | COPIED: products_20261118_153403_486159.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\products_20261118_153403_486159.json
+2026-11-18 15:40:43,335 | INFO | COPIED: transactions_20261118_144930_235367.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\transactions_20261118_144930_235367.json
+2026-11-18 15:40:43,338 | INFO | COPIED: transactions_20261118_145359_362886.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\transactions_20261118_145359_362886.json
+2026-11-18 15:40:43,340 | INFO | COPIED: transactions_20261118_145516_424185.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\transactions_20261118_145516_424185.json
+2026-11-18 15:40:43,341 | INFO | COPIED: transactions_20261118_153403_489119.json -> C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\database\transactions_20261118_153403_489119.json
+2026-11-18 15:40:43,342 | INFO | ============================================================
+2026-11-18 15:40:43,343 | INFO | RAW DATA STAGING COMPLETED
+2026-11-18 15:40:43,343 | INFO | FILES COPIED: 28
+2026-11-18 15:40:43,343 | INFO | FILES UNCHANGED: 0
+2026-11-18 15:40:43,343 | INFO | FILES FAILED: 0
+2026-11-18 15:40:43,343 | INFO | MANIFEST: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\staging\raw\staging_manifest.json
+2026-11-18 15:40:43,343 | INFO | LOG: C:\Linkific Tasks\Linkific-Tasks\Day 22\logs\raw_staging.log
+2026-11-18 15:40:43,343 | INFO | ============================================================

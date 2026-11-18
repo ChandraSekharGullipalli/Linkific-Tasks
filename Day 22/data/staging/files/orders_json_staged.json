@@ -1,0 +1,27 @@
+{
+    "source_file": "orders.json",
+    "file_type": ".json",
+    "processed_at": "2026-11-18T10:04:03.126370+00:00",
+    "original_records": 3,
+    "processed_records": 3,
+    "records": [
+        {
+            "order_id": 101,
+            "customer_id": 1,
+            "product": "Laptop",
+            "amount": 55000
+        },
+        {
+            "order_id": 102,
+            "customer_id": 2,
+            "product": "Mobile",
+            "amount": 25000
+        },
+        {
+            "order_id": 103,
+            "customer_id": 3,
+            "product": "Headphones",
+            "amount": 3000
+        }
+    ]
+}

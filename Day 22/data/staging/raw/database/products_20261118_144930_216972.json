@@ -1,0 +1,1411 @@
+{
+    "source_database": "synthetic_data_db",
+    "source_table": "products",
+    "primary_key": "product_id",
+    "extraction_type": "initial",
+    "previous_watermark": 0,
+    "record_count": 200,
+    "extracted_at": "2026-11-18T14:49:30.217105",
+    "records": [
+        {
+            "product_id": 1,
+            "product_name": "Re-contextualized static array",
+            "category": "Beauty",
+            "price": 5654.53,
+            "stock_quantity": 379
+        },
+        {
+            "product_id": 2,
+            "product_name": "Re-engineered uniform implementation",
+            "category": "Home",
+            "price": 12319.35,
+            "stock_quantity": 71
+        },
+        {
+            "product_id": 3,
+            "product_name": "Reverse-engineered didactic parallelism",
+            "category": "Beauty",
+            "price": 5213.61,
+            "stock_quantity": 379
+        },
+        {
+            "product_id": 4,
+            "product_name": "Inverse local neural-net",
+            "category": "Sports",
+            "price": 4437.33,
+            "stock_quantity": 216
+        },
+        {
+            "product_id": 5,
+            "product_name": "Proactive heuristic workforce",
+            "category": "Electronics",
+            "price": 1585.91,
+            "stock_quantity": 111
+        },
+        {
+            "product_id": 6,
+            "product_name": "Enterprise-wide analyzing matrices",
+            "category": "Clothing",
+            "price": 25316.73,
+            "stock_quantity": 13
+        },
+        {
+            "product_id": 7,
+            "product_name": "Adaptive client-driven adapter",
+            "category": "Sports",
+            "price": 10021.2,
+            "stock_quantity": 332
+        },
+        {
+            "product_id": 8,
+            "product_name": "Function-based composite Internet solution",
+            "category": "Beauty",
+            "price": 27292.12,
+            "stock_quantity": 112
+        },
+        {
+            "product_id": 9,
+            "product_name": "Diverse static access",
+            "category": "Books",
+            "price": 29503.95,
+            "stock_quantity": 414
+        },
+        {
+            "product_id": 10,
+            "product_name": "Compatible regional projection",
+            "category": "Electronics",
+            "price": 37964.25,
+            "stock_quantity": 81
+        },
+        {
+            "product_id": 11,
+            "product_name": "Proactive bandwidth-monitored challenge",
+            "category": "Beauty",
+            "price": 21187.88,
+            "stock_quantity": 142
+        },
+        {
+            "product_id": 12,
+            "product_name": "Upgradable stable array",
+            "category": "Clothing",
+            "price": 10843.37,
+            "stock_quantity": 390
+        },
+        {
+            "product_id": 13,
+            "product_name": "Distributed fault-tolerant archive",
+            "category": "Home",
+            "price": 5199.4,
+            "stock_quantity": 194
+        },
+        {
+            "product_id": 14,
+            "product_name": "Exclusive object-oriented encryption",
+            "category": "Electronics",
+            "price": 18012.43,
+            "stock_quantity": 176
+        },
+        {
+            "product_id": 15,
+            "product_name": "Versatile transitional Internet solution",
+            "category": "Sports",
+            "price": 13298.86,
+            "stock_quantity": 22
+        },
+        {
+            "product_id": 16,
+            "product_name": "Secured impactful Local Area Network",
+            "category": "Beauty",
+            "price": 23024.76,
+            "stock_quantity": 63
+        },
+        {
+            "product_id": 17,
+            "product_name": "Public-key non-volatile project",
+            "category": "Books",
+            "price": 4031.21,
+            "stock_quantity": 150
+        },
+        {
+            "product_id": 18,
+            "product_name": "Persevering impactful alliance",
+            "category": "Beauty",
+            "price": 30963.75,
+            "stock_quantity": 441
+        },
+        {
+            "product_id": 19,
+            "product_name": "Re-contextualized multi-state leverage",
+            "category": "Home",
+            "price": 28909.45,
+            "stock_quantity": 360
+        },
+        {
+            "product_id": 20,
+            "product_name": "Extended asynchronous concept",
+            "category": "Electronics",
+            "price": 2385.68,
+            "stock_quantity": 116
+        },
+        {
+            "product_id": 21,
+            "product_name": "Optimized mobile matrices",
+            "category": "Home",
+            "price": 49262.54,
+            "stock_quantity": 437
+        },
+        {
+            "product_id": 22,
+            "product_name": "Focused attitude-oriented website",
+            "category": "Clothing",
+            "price": 43337.4,
+            "stock_quantity": 194
+        },
+        {
+            "product_id": 23,
+            "product_name": "Robust zero administration contingency",
+            "category": "Home",
+            "price": 22724.63,
+            "stock_quantity": 427
+        },
+        {
+            "product_id": 24,
+            "product_name": "De-engineered leadingedge projection",
+            "category": "Home",
+            "price": 8215.6,
+            "stock_quantity": 181
+        },
+        {
+            "product_id": 25,
+            "product_name": "Networked systematic task-force",
+            "category": "Clothing",
+            "price": 33541.41,
+            "stock_quantity": 359
+        },
+        {
+            "product_id": 26,
+            "product_name": "Assimilated logistical Graphical User Interface",
+            "category": "Beauty",
+            "price": 32436.61,
+            "stock_quantity": 311
+        },
+        {
+            "product_id": 27,
+            "product_name": "Total object-oriented moderator",
+            "category": "Beauty",
+            "price": 8638.99,
+            "stock_quantity": 373
+        },
+        {
+            "product_id": 28,
+            "product_name": "Public-key regional leverage",
+            "category": "Clothing",
+            "price": 8252.95,
+            "stock_quantity": 194
+        },
+        {
+            "product_id": 29,
+            "product_name": "Streamlined needs-based instruction set",
+            "category": "Home",
+            "price": 49477.2,
+            "stock_quantity": 327
+        },
+        {
+            "product_id": 30,
+            "product_name": "Multi-channeled disintermediate productivity",
+            "category": "Beauty",
+            "price": 27891.35,
+            "stock_quantity": 350
+        },
+        {
+            "product_id": 31,
+            "product_name": "Expanded responsive software",
+            "category": "Home",
+            "price": 42158.15,
+            "stock_quantity": 397
+        },
+        {
+            "product_id": 32,
+            "product_name": "Re-engineered tangible solution",
+            "category": "Electronics",
+            "price": 11528.73,
+            "stock_quantity": 16
+        },
+        {
+            "product_id": 33,
+            "product_name": "Integrated dedicated budgetary management",
+            "category": "Home",
+            "price": 20117.52,
+            "stock_quantity": 33
+        },
+        {
+            "product_id": 34,
+            "product_name": "Robust background product",
+            "category": "Clothing",
+            "price": 45665.41,
+            "stock_quantity": 290
+        },
+        {
+            "product_id": 35,
+            "product_name": "Visionary homogeneous groupware",
+            "category": "Beauty",
+            "price": 15801.74,
+            "stock_quantity": 335
+        },
+        {
+            "product_id": 36,
+            "product_name": "Integrated content-based algorithm",
+            "category": "Books",
+            "price": 19841.43,
+            "stock_quantity": 468
+        },
+        {
+            "product_id": 37,
+            "product_name": "Profound systematic success",
+            "category": "Beauty",
+            "price": 22996.17,
+            "stock_quantity": 135
+        },
+        {
+            "product_id": 38,
+            "product_name": "Reduced scalable groupware",
+            "category": "Clothing",
+            "price": 12405.96,
+            "stock_quantity": 287
+        },
+        {
+            "product_id": 39,
+            "product_name": "Enterprise-wide discrete capability",
+            "category": "Sports",
+            "price": 13210.07,
+            "stock_quantity": 299
+        },
+        {
+            "product_id": 40,
+            "product_name": "Digitized 6thgeneration complexity",
+            "category": "Books",
+            "price": 44901.26,
+            "stock_quantity": 204
+        },
+        {
+            "product_id": 41,
+            "product_name": "Decentralized optimizing architecture",
+            "category": "Home",
+            "price": 11043.33,
+            "stock_quantity": 70
+        },
+        {
+            "product_id": 42,
+            "product_name": "Multi-channeled 4thgeneration time-frame",
+            "category": "Sports",
+            "price": 24725.93,
+            "stock_quantity": 386
+        },
+        {
+            "product_id": 43,
+            "product_name": "Monitored mobile workforce",
+            "category": "Electronics",
+            "price": 43068.9,
+            "stock_quantity": 78
+        },
+        {
+            "product_id": 44,
+            "product_name": "Multi-tiered encompassing forecast",
+            "category": "Beauty",
+            "price": 8082.26,
+            "stock_quantity": 348
+        },
+        {
+            "product_id": 45,
+            "product_name": "Re-contextualized scalable knowledgebase",
+            "category": "Books",
+            "price": 29860.41,
+            "stock_quantity": 197
+        },
+        {
+            "product_id": 46,
+            "product_name": "Horizontal mission-critical ability",
+            "category": "Books",
+            "price": 29834.43,
+            "stock_quantity": 239
+        },
+        {
+            "product_id": 47,
+            "product_name": "Universal actuating ability",
+            "category": "Sports",
+            "price": 12644.82,
+            "stock_quantity": 283
+        },
+        {
+            "product_id": 48,
+            "product_name": "Devolved intangible open architecture",
+            "category": "Electronics",
+            "price": 34045.82,
+            "stock_quantity": 58
+        },
+        {
+            "product_id": 49,
+            "product_name": "Persistent hybrid function",
+            "category": "Beauty",
+            "price": 44250.83,
+            "stock_quantity": 384
+        },
+        {
+            "product_id": 50,
+            "product_name": "Integrated needs-based secured line",
+            "category": "Home",
+            "price": 38452.85,
+            "stock_quantity": 174
+        },
+        {
+            "product_id": 51,
+            "product_name": "Virtual intermediate methodology",
+            "category": "Electronics",
+            "price": 14744.95,
+            "stock_quantity": 80
+        },
+        {
+            "product_id": 52,
+            "product_name": "Open-architected exuding orchestration",
+            "category": "Books",
+            "price": 260.94,
+            "stock_quantity": 369
+        },
+        {
+            "product_id": 53,
+            "product_name": "Organized optimizing knowledge user",
+            "category": "Beauty",
+            "price": 13242.38,
+            "stock_quantity": 256
+        },
+        {
+            "product_id": 54,
+            "product_name": "Integrated background instruction set",
+            "category": "Clothing",
+            "price": 25432.82,
+            "stock_quantity": 54
+        },
+        {
+            "product_id": 55,
+            "product_name": "Exclusive human-resource hardware",
+            "category": "Beauty",
+            "price": 14991.69,
+            "stock_quantity": 327
+        },
+        {
+            "product_id": 56,
+            "product_name": "Optimized system-worthy alliance",
+            "category": "Sports",
+            "price": 30487.22,
+            "stock_quantity": 78
+        },
+        {
+            "product_id": 57,
+            "product_name": "Function-based full-range alliance",
+            "category": "Home",
+            "price": 38149.05,
+            "stock_quantity": 276
+        },
+        {
+            "product_id": 58,
+            "product_name": "Ameliorated incremental encryption",
+            "category": "Sports",
+            "price": 45932.74,
+            "stock_quantity": 306
+        },
+        {
+            "product_id": 59,
+            "product_name": "Multi-channeled foreground standardization",
+            "category": "Home",
+            "price": 24480.91,
+            "stock_quantity": 57
+        },
+        {
+            "product_id": 60,
+            "product_name": "Face-to-face methodical customer loyalty",
+            "category": "Home",
+            "price": 43948.1,
+            "stock_quantity": 425
+        },
+        {
+            "product_id": 61,
+            "product_name": "Automated optimizing support",
+            "category": "Home",
+            "price": 12047.91,
+            "stock_quantity": 123
+        },
+        {
+            "product_id": 62,
+            "product_name": "Networked encompassing open system",
+            "category": "Sports",
+            "price": 47352.72,
+            "stock_quantity": 43
+        },
+        {
+            "product_id": 63,
+            "product_name": "Optimized reciprocal contingency",
+            "category": "Beauty",
+            "price": 24350.41,
+            "stock_quantity": 35
+        },
+        {
+            "product_id": 64,
+            "product_name": "Persistent leadingedge artificial intelligence",
+            "category": "Sports",
+            "price": 38314.9,
+            "stock_quantity": 65
+        },
+        {
+            "product_id": 65,
+            "product_name": "Customizable scalable open system",
+            "category": "Beauty",
+            "price": 23816.07,
+            "stock_quantity": 281
+        },
+        {
+            "product_id": 66,
+            "product_name": "Streamlined heuristic challenge",
+            "category": "Clothing",
+            "price": 13325.59,
+            "stock_quantity": 446
+        },
+        {
+            "product_id": 67,
+            "product_name": "Re-contextualized tangible implementation",
+            "category": "Sports",
+            "price": 21214.01,
+            "stock_quantity": 108
+        },
+        {
+            "product_id": 68,
+            "product_name": "Face-to-face fresh-thinking database",
+            "category": "Sports",
+            "price": 37787.49,
+            "stock_quantity": 353
+        },
+        {
+            "product_id": 69,
+            "product_name": "Business-focused system-worthy hub",
+            "category": "Clothing",
+            "price": 35675.87,
+            "stock_quantity": 204
+        },
+        {
+            "product_id": 70,
+            "product_name": "Reverse-engineered maximized success",
+            "category": "Beauty",
+            "price": 32528.56,
+            "stock_quantity": 224
+        },
+        {
+            "product_id": 71,
+            "product_name": "Advanced context-sensitive hub",
+            "category": "Sports",
+            "price": 22628.61,
+            "stock_quantity": 126
+        },
+        {
+            "product_id": 72,
+            "product_name": "Monitored bifurcated complexity",
+            "category": "Clothing",
+            "price": 3293.96,
+            "stock_quantity": 10
+        },
+        {
+            "product_id": 73,
+            "product_name": "Progressive cohesive Local Area Network",
+            "category": "Sports",
+            "price": 27740.24,
+            "stock_quantity": 301
+        },
+        {
+            "product_id": 74,
+            "product_name": "Open-source systematic database",
+            "category": "Clothing",
+            "price": 457.83,
+            "stock_quantity": 362
+        },
+        {
+            "product_id": 75,
+            "product_name": "Optimized exuding encoding",
+            "category": "Beauty",
+            "price": 3036.86,
+            "stock_quantity": 34
+        },
+        {
+            "product_id": 76,
+            "product_name": "Configurable foreground pricing structure",
+            "category": "Electronics",
+            "price": 42995.67,
+            "stock_quantity": 36
+        },
+        {
+            "product_id": 77,
+            "product_name": "Implemented multi-tasking process improvement",
+            "category": "Sports",
+            "price": 11975.67,
+            "stock_quantity": 342
+        },
+        {
+            "product_id": 78,
+            "product_name": "Realigned non-volatile task-force",
+            "category": "Books",
+            "price": 10789.63,
+            "stock_quantity": 67
+        },
+        {
+            "product_id": 79,
+            "product_name": "Managed reciprocal infrastructure",
+            "category": "Beauty",
+            "price": 46782.1,
+            "stock_quantity": 292
+        },
+        {
+            "product_id": 80,
+            "product_name": "Monitored executive installation",
+            "category": "Sports",
+            "price": 23685.76,
+            "stock_quantity": 401
+        },
+        {
+            "product_id": 81,
+            "product_name": "Switchable intermediate encryption",
+            "category": "Books",
+            "price": 40393.91,
+            "stock_quantity": 97
+        },
+        {
+            "product_id": 82,
+            "product_name": "Innovative full-range system engine",
+            "category": "Electronics",
+            "price": 4935.94,
+            "stock_quantity": 220
+        },
+        {
+            "product_id": 83,
+            "product_name": "Fundamental explicit synergy",
+            "category": "Home",
+            "price": 21236.0,
+            "stock_quantity": 239
+        },
+        {
+            "product_id": 84,
+            "product_name": "Face-to-face fault-tolerant strategy",
+            "category": "Beauty",
+            "price": 2802.2,
+            "stock_quantity": 334
+        },
+        {
+            "product_id": 85,
+            "product_name": "Function-based zero tolerance archive",
+            "category": "Beauty",
+            "price": 5010.15,
+            "stock_quantity": 206
+        },
+        {
+            "product_id": 86,
+            "product_name": "Integrated reciprocal capability",
+            "category": "Beauty",
+            "price": 17030.54,
+            "stock_quantity": 441
+        },
+        {
+            "product_id": 87,
+            "product_name": "Object-based non-volatile portal",
+            "category": "Electronics",
+            "price": 12507.2,
+            "stock_quantity": 97
+        },
+        {
+            "product_id": 88,
+            "product_name": "Reverse-engineered dynamic system engine",
+            "category": "Sports",
+            "price": 22485.26,
+            "stock_quantity": 216
+        },
+        {
+            "product_id": 89,
+            "product_name": "Robust dynamic strategy",
+            "category": "Clothing",
+            "price": 13998.68,
+            "stock_quantity": 127
+        },
+        {
+            "product_id": 90,
+            "product_name": "Fundamental even-keeled paradigm",
+            "category": "Electronics",
+            "price": 22211.67,
+            "stock_quantity": 441
+        },
+        {
+            "product_id": 91,
+            "product_name": "Organized executive definition",
+            "category": "Sports",
+            "price": 4984.74,
+            "stock_quantity": 333
+        },
+        {
+            "product_id": 92,
+            "product_name": "Re-engineered encompassing installation",
+            "category": "Sports",
+            "price": 41817.61,
+            "stock_quantity": 496
+        },
+        {
+            "product_id": 93,
+            "product_name": "Fundamental 3rdgeneration moderator",
+            "category": "Electronics",
+            "price": 46325.64,
+            "stock_quantity": 434
+        },
+        {
+            "product_id": 94,
+            "product_name": "Virtual systematic protocol",
+            "category": "Clothing",
+            "price": 8398.09,
+            "stock_quantity": 248
+        },
+        {
+            "product_id": 95,
+            "product_name": "Total next generation concept",
+            "category": "Books",
+            "price": 10765.2,
+            "stock_quantity": 205
+        },
+        {
+            "product_id": 96,
+            "product_name": "Digitized directional application",
+            "category": "Electronics",
+            "price": 8314.56,
+            "stock_quantity": 1
+        },
+        {
+            "product_id": 97,
+            "product_name": "Reverse-engineered full-range middleware",
+            "category": "Books",
+            "price": 13332.9,
+            "stock_quantity": 401
+        },
+        {
+            "product_id": 98,
+            "product_name": "Operative clear-thinking portal",
+            "category": "Books",
+            "price": 14333.22,
+            "stock_quantity": 356
+        },
+        {
+            "product_id": 99,
+            "product_name": "Up-sized mission-critical success",
+            "category": "Beauty",
+            "price": 49771.59,
+            "stock_quantity": 284
+        },
+        {
+            "product_id": 100,
+            "product_name": "Extended object-oriented secured line",
+            "category": "Beauty",
+            "price": 35948.29,
+            "stock_quantity": 79
+        },
+        {
+            "product_id": 101,
+            "product_name": "Public-key secondary throughput",
+            "category": "Clothing",
+            "price": 14905.02,
+            "stock_quantity": 495
+        },
+        {
+            "product_id": 102,
+            "product_name": "Programmable optimal flexibility",
+            "category": "Electronics",
+            "price": 29000.68,
+            "stock_quantity": 277
+        },
+        {
+            "product_id": 103,
+            "product_name": "Cross-platform dynamic complexity",
+            "category": "Electronics",
+            "price": 37423.73,
+            "stock_quantity": 29
+        },
+        {
+            "product_id": 104,
+            "product_name": "Customer-focused 24/7 task-force",
+            "category": "Electronics",
+            "price": 29250.05,
+            "stock_quantity": 257
+        },
+        {
+            "product_id": 105,
+            "product_name": "Re-engineered local capacity",
+            "category": "Sports",
+            "price": 7955.05,
+            "stock_quantity": 491
+        },
+        {
+            "product_id": 106,
+            "product_name": "Centralized system-worthy conglomeration",
+            "category": "Sports",
+            "price": 4096.64,
+            "stock_quantity": 95
+        },
+        {
+            "product_id": 107,
+            "product_name": "Customizable mission-critical task-force",
+            "category": "Electronics",
+            "price": 29791.85,
+            "stock_quantity": 345
+        },
+        {
+            "product_id": 108,
+            "product_name": "Balanced mission-critical Graphic Interface",
+            "category": "Clothing",
+            "price": 20247.8,
+            "stock_quantity": 482
+        },
+        {
+            "product_id": 109,
+            "product_name": "Innovative multi-state hardware",
+            "category": "Sports",
+            "price": 12385.39,
+            "stock_quantity": 304
+        },
+        {
+            "product_id": 110,
+            "product_name": "Ergonomic executive product",
+            "category": "Electronics",
+            "price": 31006.76,
+            "stock_quantity": 214
+        },
+        {
+            "product_id": 111,
+            "product_name": "Triple-buffered zero tolerance installation",
+            "category": "Beauty",
+            "price": 29224.83,
+            "stock_quantity": 267
+        },
+        {
+            "product_id": 112,
+            "product_name": "Multi-layered global leverage",
+            "category": "Home",
+            "price": 46741.78,
+            "stock_quantity": 104
+        },
+        {
+            "product_id": 113,
+            "product_name": "Reduced clear-thinking time-frame",
+            "category": "Beauty",
+            "price": 35837.69,
+            "stock_quantity": 122
+        },
+        {
+            "product_id": 114,
+            "product_name": "De-engineered 5thgeneration encryption",
+            "category": "Home",
+            "price": 19849.11,
+            "stock_quantity": 343
+        },
+        {
+            "product_id": 115,
+            "product_name": "Advanced 6thgeneration framework",
+            "category": "Beauty",
+            "price": 15069.15,
+            "stock_quantity": 161
+        },
+        {
+            "product_id": 116,
+            "product_name": "Grass-roots non-volatile Internet solution",
+            "category": "Electronics",
+            "price": 563.85,
+            "stock_quantity": 318
+        },
+        {
+            "product_id": 117,
+            "product_name": "Innovative homogeneous architecture",
+            "category": "Sports",
+            "price": 49805.21,
+            "stock_quantity": 37
+        },
+        {
+            "product_id": 118,
+            "product_name": "Digitized uniform pricing structure",
+            "category": "Sports",
+            "price": 10735.61,
+            "stock_quantity": 135
+        },
+        {
+            "product_id": 119,
+            "product_name": "Face-to-face non-volatile application",
+            "category": "Clothing",
+            "price": 46669.58,
+            "stock_quantity": 451
+        },
+        {
+            "product_id": 120,
+            "product_name": "Assimilated client-server support",
+            "category": "Electronics",
+            "price": 43975.46,
+            "stock_quantity": 189
+        },
+        {
+            "product_id": 121,
+            "product_name": "Multi-channeled bi-directional challenge",
+            "category": "Home",
+            "price": 7970.72,
+            "stock_quantity": 426
+        },
+        {
+            "product_id": 122,
+            "product_name": "Vision-oriented bifurcated database",
+            "category": "Sports",
+            "price": 35206.35,
+            "stock_quantity": 313
+        },
+        {
+            "product_id": 123,
+            "product_name": "Upgradable maximized groupware",
+            "category": "Beauty",
+            "price": 26493.67,
+            "stock_quantity": 341
+        },
+        {
+            "product_id": 124,
+            "product_name": "Object-based heuristic moderator",
+            "category": "Sports",
+            "price": 15038.3,
+            "stock_quantity": 339
+        },
+        {
+            "product_id": 125,
+            "product_name": "Triple-buffered radical infrastructure",
+            "category": "Electronics",
+            "price": 46952.55,
+            "stock_quantity": 68
+        },
+        {
+            "product_id": 126,
+            "product_name": "Ergonomic full-range paradigm",
+            "category": "Home",
+            "price": 5859.01,
+            "stock_quantity": 54
+        },
+        {
+            "product_id": 127,
+            "product_name": "Mandatory responsive service-desk",
+            "category": "Beauty",
+            "price": 27705.41,
+            "stock_quantity": 139
+        },
+        {
+            "product_id": 128,
+            "product_name": "Phased 24hour open architecture",
+            "category": "Home",
+            "price": 30280.61,
+            "stock_quantity": 367
+        },
+        {
+            "product_id": 129,
+            "product_name": "Optional attitude-oriented orchestration",
+            "category": "Home",
+            "price": 10258.71,
+            "stock_quantity": 324
+        },
+        {
+            "product_id": 130,
+            "product_name": "Seamless didactic architecture",
+            "category": "Home",
+            "price": 25319.42,
+            "stock_quantity": 128
+        },
+        {
+            "product_id": 131,
+            "product_name": "Fundamental tertiary hierarchy",
+            "category": "Electronics",
+            "price": 4704.79,
+            "stock_quantity": 216
+        },
+        {
+            "product_id": 132,
+            "product_name": "Reactive exuding core",
+            "category": "Home",
+            "price": 2298.97,
+            "stock_quantity": 170
+        },
+        {
+            "product_id": 133,
+            "product_name": "Fundamental tangible Graphic Interface",
+            "category": "Clothing",
+            "price": 31891.59,
+            "stock_quantity": 134
+        },
+        {
+            "product_id": 134,
+            "product_name": "Object-based human-resource definition",
+            "category": "Clothing",
+            "price": 37087.16,
+            "stock_quantity": 282
+        },
+        {
+            "product_id": 135,
+            "product_name": "Configurable asynchronous definition",
+            "category": "Beauty",
+            "price": 21441.0,
+            "stock_quantity": 4
+        },
+        {
+            "product_id": 136,
+            "product_name": "Quality-focused neutral hub",
+            "category": "Electronics",
+            "price": 3853.74,
+            "stock_quantity": 452
+        },
+        {
+            "product_id": 137,
+            "product_name": "Business-focused demand-driven frame",
+            "category": "Beauty",
+            "price": 45205.94,
+            "stock_quantity": 279
+        },
+        {
+            "product_id": 138,
+            "product_name": "Enterprise-wide content-based installation",
+            "category": "Electronics",
+            "price": 41746.13,
+            "stock_quantity": 298
+        },
+        {
+            "product_id": 139,
+            "product_name": "Diverse static support",
+            "category": "Sports",
+            "price": 7489.03,
+            "stock_quantity": 65
+        },
+        {
+            "product_id": 140,
+            "product_name": "Devolved 5thgeneration encryption",
+            "category": "Electronics",
+            "price": 15481.4,
+            "stock_quantity": 460
+        },
+        {
+            "product_id": 141,
+            "product_name": "Ergonomic fault-tolerant knowledgebase",
+            "category": "Electronics",
+            "price": 44956.24,
+            "stock_quantity": 107
+        },
+        {
+            "product_id": 142,
+            "product_name": "Implemented contextually-based firmware",
+            "category": "Beauty",
+            "price": 12550.78,
+            "stock_quantity": 52
+        },
+        {
+            "product_id": 143,
+            "product_name": "Open-source demand-driven projection",
+            "category": "Home",
+            "price": 39027.58,
+            "stock_quantity": 452
+        },
+        {
+            "product_id": 144,
+            "product_name": "Customer-focused 3rdgeneration framework",
+            "category": "Books",
+            "price": 48694.44,
+            "stock_quantity": 383
+        },
+        {
+            "product_id": 145,
+            "product_name": "Focused stable knowledge user",
+            "category": "Clothing",
+            "price": 46295.54,
+            "stock_quantity": 121
+        },
+        {
+            "product_id": 146,
+            "product_name": "Universal optimal instruction set",
+            "category": "Clothing",
+            "price": 48812.66,
+            "stock_quantity": 415
+        },
+        {
+            "product_id": 147,
+            "product_name": "Profit-focused user-facing solution",
+            "category": "Clothing",
+            "price": 44082.55,
+            "stock_quantity": 12
+        },
+        {
+            "product_id": 148,
+            "product_name": "Synergistic stable infrastructure",
+            "category": "Clothing",
+            "price": 36854.3,
+            "stock_quantity": 170
+        },
+        {
+            "product_id": 149,
+            "product_name": "Quality-focused 4thgeneration alliance",
+            "category": "Books",
+            "price": 40131.34,
+            "stock_quantity": 442
+        },
+        {
+            "product_id": 150,
+            "product_name": "Reactive solution-oriented functionalities",
+            "category": "Beauty",
+            "price": 40556.2,
+            "stock_quantity": 136
+        },
+        {
+            "product_id": 151,
+            "product_name": "Triple-buffered tertiary circuit",
+            "category": "Clothing",
+            "price": 39389.78,
+            "stock_quantity": 55
+        },
+        {
+            "product_id": 152,
+            "product_name": "Re-contextualized even-keeled implementation",
+            "category": "Books",
+            "price": 43620.99,
+            "stock_quantity": 439
+        },
+        {
+            "product_id": 153,
+            "product_name": "Versatile optimal application",
+            "category": "Books",
+            "price": 11198.66,
+            "stock_quantity": 418
+        },
+        {
+            "product_id": 154,
+            "product_name": "Distributed solution-oriented array",
+            "category": "Books",
+            "price": 17547.31,
+            "stock_quantity": 420
+        },
+        {
+            "product_id": 155,
+            "product_name": "Stand-alone stable matrix",
+            "category": "Clothing",
+            "price": 11223.11,
+            "stock_quantity": 337
+        },
+        {
+            "product_id": 156,
+            "product_name": "Organic executive architecture",
+            "category": "Clothing",
+            "price": 19982.85,
+            "stock_quantity": 142
+        },
+        {
+            "product_id": 157,
+            "product_name": "Persistent empowering core",
+            "category": "Electronics",
+            "price": 48347.73,
+            "stock_quantity": 142
+        },
+        {
+            "product_id": 158,
+            "product_name": "Automated exuding database",
+            "category": "Home",
+            "price": 32109.58,
+            "stock_quantity": 204
+        },
+        {
+            "product_id": 159,
+            "product_name": "Intuitive analyzing collaboration",
+            "category": "Beauty",
+            "price": 49059.35,
+            "stock_quantity": 274
+        },
+        {
+            "product_id": 160,
+            "product_name": "Focused national utilization",
+            "category": "Home",
+            "price": 46967.87,
+            "stock_quantity": 59
+        },
+        {
+            "product_id": 161,
+            "product_name": "Multi-lateral actuating complexity",
+            "category": "Home",
+            "price": 9009.71,
+            "stock_quantity": 492
+        },
+        {
+            "product_id": 162,
+            "product_name": "Diverse next generation pricing structure",
+            "category": "Home",
+            "price": 2008.07,
+            "stock_quantity": 305
+        },
+        {
+            "product_id": 163,
+            "product_name": "Grass-roots interactive infrastructure",
+            "category": "Books",
+            "price": 17349.13,
+            "stock_quantity": 402
+        },
+        {
+            "product_id": 164,
+            "product_name": "Mandatory contextually-based knowledge user",
+            "category": "Home",
+            "price": 21875.49,
+            "stock_quantity": 261
+        },
+        {
+            "product_id": 165,
+            "product_name": "Versatile global superstructure",
+            "category": "Electronics",
+            "price": 19320.64,
+            "stock_quantity": 295
+        },
+        {
+            "product_id": 166,
+            "product_name": "Versatile well-modulated complexity",
+            "category": "Clothing",
+            "price": 12809.91,
+            "stock_quantity": 362
+        },
+        {
+            "product_id": 167,
+            "product_name": "Exclusive dedicated challenge",
+            "category": "Books",
+            "price": 183.4,
+            "stock_quantity": 473
+        },
+        {
+            "product_id": 168,
+            "product_name": "Programmable coherent process improvement",
+            "category": "Sports",
+            "price": 34373.86,
+            "stock_quantity": 481
+        },
+        {
+            "product_id": 169,
+            "product_name": "Focused 24/7 challenge",
+            "category": "Beauty",
+            "price": 36877.92,
+            "stock_quantity": 100
+        },
+        {
+            "product_id": 170,
+            "product_name": "Ameliorated client-driven groupware",
+            "category": "Home",
+            "price": 21621.17,
+            "stock_quantity": 485
+        },
+        {
+            "product_id": 171,
+            "product_name": "Open-architected object-oriented benchmark",
+            "category": "Beauty",
+            "price": 46046.39,
+            "stock_quantity": 319
+        },
+        {
+            "product_id": 172,
+            "product_name": "Extended demand-driven access",
+            "category": "Home",
+            "price": 33202.7,
+            "stock_quantity": 63
+        },
+        {
+            "product_id": 173,
+            "product_name": "Focused 3rdgeneration definition",
+            "category": "Beauty",
+            "price": 45012.24,
+            "stock_quantity": 259
+        },
+        {
+            "product_id": 174,
+            "product_name": "Exclusive eco-centric installation",
+            "category": "Home",
+            "price": 33377.62,
+            "stock_quantity": 167
+        },
+        {
+            "product_id": 175,
+            "product_name": "Persistent leadingedge architecture",
+            "category": "Books",
+            "price": 34890.4,
+            "stock_quantity": 283
+        },
+        {
+            "product_id": 176,
+            "product_name": "Upgradable system-worthy capability",
+            "category": "Clothing",
+            "price": 9672.01,
+            "stock_quantity": 340
+        },
+        {
+            "product_id": 177,
+            "product_name": "Synchronized interactive toolset",
+            "category": "Books",
+            "price": 33897.84,
+            "stock_quantity": 462
+        },
+        {
+            "product_id": 178,
+            "product_name": "Persevering high-level access",
+            "category": "Clothing",
+            "price": 30813.81,
+            "stock_quantity": 154
+        },
+        {
+            "product_id": 179,
+            "product_name": "Organic interactive circuit",
+            "category": "Books",
+            "price": 27441.61,
+            "stock_quantity": 0
+        },
+        {
+            "product_id": 180,
+            "product_name": "Vision-oriented mission-critical pricing structure",
+            "category": "Home",
+            "price": 14416.28,
+            "stock_quantity": 220
+        },
+        {
+            "product_id": 181,
+            "product_name": "Seamless grid-enabled system engine",
+            "category": "Sports",
+            "price": 30372.02,
+            "stock_quantity": 164
+        },
+        {
+            "product_id": 182,
+            "product_name": "Intuitive dynamic synergy",
+            "category": "Books",
+            "price": 22144.56,
+            "stock_quantity": 345
+        },
+        {
+            "product_id": 183,
+            "product_name": "Centralized context-sensitive focus group",
+            "category": "Clothing",
+            "price": 25607.09,
+            "stock_quantity": 406
+        },
+        {
+            "product_id": 184,
+            "product_name": "Stand-alone holistic database",
+            "category": "Beauty",
+            "price": 8566.77,
+            "stock_quantity": 43
+        },
+        {
+            "product_id": 185,
+            "product_name": "Centralized attitude-oriented conglomeration",
+            "category": "Home",
+            "price": 25820.57,
+            "stock_quantity": 324
+        },
+        {
+            "product_id": 186,
+            "product_name": "Focused user-facing paradigm",
+            "category": "Sports",
+            "price": 16825.23,
+            "stock_quantity": 419
+        },
+        {
+            "product_id": 187,
+            "product_name": "Realigned zero administration firmware",
+            "category": "Clothing",
+            "price": 33672.18,
+            "stock_quantity": 115
+        },
+        {
+            "product_id": 188,
+            "product_name": "Pre-emptive composite encoding",
+            "category": "Clothing",
+            "price": 7452.11,
+            "stock_quantity": 23
+        },
+        {
+            "product_id": 189,
+            "product_name": "Assimilated didactic flexibility",
+            "category": "Clothing",
+            "price": 49198.39,
+            "stock_quantity": 312
+        },
+        {
+            "product_id": 190,
+            "product_name": "Universal clear-thinking analyzer",
+            "category": "Electronics",
+            "price": 22824.72,
+            "stock_quantity": 453
+        },
+        {
+            "product_id": 191,
+            "product_name": "De-engineered needs-based frame",
+            "category": "Beauty",
+            "price": 28825.55,
+            "stock_quantity": 367
+        },
+        {
+            "product_id": 192,
+            "product_name": "Persevering asymmetric website",
+            "category": "Beauty",
+            "price": 19259.91,
+            "stock_quantity": 204
+        },
+        {
+            "product_id": 193,
+            "product_name": "Reduced user-facing website",
+            "category": "Clothing",
+            "price": 7462.96,
+            "stock_quantity": 352
+        },
+        {
+            "product_id": 194,
+            "product_name": "Visionary 3rdgeneration array",
+            "category": "Electronics",
+            "price": 44643.62,
+            "stock_quantity": 440
+        },
+        {
+            "product_id": 195,
+            "product_name": "Persevering transitional complexity",
+            "category": "Electronics",
+            "price": 38942.96,
+            "stock_quantity": 112
+        },
+        {
+            "product_id": 196,
+            "product_name": "Diverse stable website",
+            "category": "Clothing",
+            "price": 40224.89,
+            "stock_quantity": 356
+        },
+        {
+            "product_id": 197,
+            "product_name": "De-engineered explicit application",
+            "category": "Sports",
+            "price": 23280.5,
+            "stock_quantity": 285
+        },
+        {
+            "product_id": 198,
+            "product_name": "Multi-layered analyzing intranet",
+            "category": "Clothing",
+            "price": 45881.67,
+            "stock_quantity": 62
+        },
+        {
+            "product_id": 199,
+            "product_name": "Up-sized incremental firmware",
+            "category": "Books",
+            "price": 6752.75,
+            "stock_quantity": 237
+        },
+        {
+            "product_id": 200,
+            "product_name": "Switchable needs-based Local Area Network",
+            "category": "Beauty",
+            "price": 26603.01,
+            "stock_quantity": 286
+        }
+    ]
+}

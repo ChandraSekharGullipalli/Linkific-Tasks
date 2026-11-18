@@ -1,0 +1,183 @@
+{
+    "pipeline": "Day 23 Raw Data Staging",
+    "started_at": "2026-11-18T15:40:43.289775",
+    "completed_at": "2026-11-18T15:40:43.341856",
+    "duration_seconds": 0.05,
+    "total_sources": 3,
+    "total_copied": 28,
+    "total_unchanged": 0,
+    "total_failed": 0,
+    "overall_status": "SUCCESS",
+    "sources": [
+        {
+            "source": "api",
+            "status": "SUCCESS",
+            "source_file_count": 6,
+            "copied": 6,
+            "unchanged": 0,
+            "failed": 0,
+            "files": [
+                {
+                    "file_name": "github_repositories_20261118_084201.json",
+                    "size_bytes": 22172,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "github_repositories_20261118_100344.json",
+                    "size_bytes": 22172,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "jsonplaceholder_posts_20261118_084206.json",
+                    "size_bytes": 20096,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "jsonplaceholder_posts_20261118_100348.json",
+                    "size_bytes": 20096,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "open_library_books_20261118_084210.json",
+                    "size_bytes": 10070,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "open_library_books_20261118_100353.json",
+                    "size_bytes": 10070,
+                    "status": "COPIED"
+                }
+            ]
+        },
+        {
+            "source": "scraped",
+            "status": "SUCCESS",
+            "source_file_count": 2,
+            "copied": 2,
+            "unchanged": 0,
+            "failed": 0,
+            "files": [
+                {
+                    "file_name": "scraped_products_20261118_085155.json",
+                    "size_bytes": 19717,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "scraped_products_20261118_100401.json",
+                    "size_bytes": 19717,
+                    "status": "COPIED"
+                }
+            ]
+        },
+        {
+            "source": "database",
+            "status": "SUCCESS",
+            "source_file_count": 21,
+            "copied": 20,
+            "unchanged": 0,
+            "failed": 0,
+            "files": [
+                {
+                    "file_name": "customers_20261118_144930_025048.json",
+                    "size_bytes": 515,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "customers_20261118_145359_295943.json",
+                    "size_bytes": 260796,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "customers_20261118_145516_401878.json",
+                    "size_bytes": 284,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "customers_20261118_153403_479191.json",
+                    "size_bytes": 284,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "order_items_20261118_144930_153652.json",
+                    "size_bytes": 555133,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "order_items_20261118_145359_313674.json",
+                    "size_bytes": 288,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "order_items_20261118_145516_406901.json",
+                    "size_bytes": 288,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "order_items_20261118_153403_482110.json",
+                    "size_bytes": 288,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "orders_20261118_144930_204045.json",
+                    "size_bytes": 370,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "orders_20261118_145359_325924.json",
+                    "size_bytes": 161901,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "orders_20261118_145516_412505.json",
+                    "size_bytes": 278,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "orders_20261118_153403_484412.json",
+                    "size_bytes": 278,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "products_20261118_144930_216972.json",
+                    "size_bytes": 44931,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "products_20261118_145359_343246.json",
+                    "size_bytes": 281,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "products_20261118_145516_419236.json",
+                    "size_bytes": 281,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "products_20261118_153403_486159.json",
+                    "size_bytes": 281,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "transactions_20261118_144930_235367.json",
+                    "size_bytes": 389,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "transactions_20261118_145359_362886.json",
+                    "size_bytes": 251149,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "transactions_20261118_145516_424185.json",
+                    "size_bytes": 290,
+                    "status": "COPIED"
+                },
+                {
+                    "file_name": "transactions_20261118_153403_489119.json",
+                    "size_bytes": 290,
+                    "status": "COPIED"
+                }
+            ]
+        }
+    ]
+}

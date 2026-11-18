@@ -1,0 +1,16 @@
+{
+    "source_database": "synthetic_data_db",
+    "source_table": "customers",
+    "primary_key": "customer_id",
+    "extraction_type": "initial",
+    "previous_watermark": 0,
+    "record_count": 1000,
+    "extracted_at": "2026-11-18T14:49:30.025144",
+    "records": [
+        {
+            "customer_id": 1,
+            "customer_name": "Aryan Maharaj",
+            "email": "udantdewan@example.net",
+            "phone": "+918196001338",
+            "city": "Kishanganj",
+            "created_at": 

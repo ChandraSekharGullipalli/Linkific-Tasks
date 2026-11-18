@@ -1,0 +1,5 @@
+2026-11-18 15:57:59 | INFO | day23_logging_test | Ingestion process started successfully
+2026-11-18 15:57:59 | WARNING | day23_logging_test | Warning: Some records need validation
+2026-11-18 15:57:59 | ERROR | day23_logging_test | Error: Sample error message
+2026-11-18 15:57:59 | CRITICAL | day23_logging_test | Critical: Sample critical message
+2026-11-18 15:57:59 | INFO | day23_logging_test | Logging implementation test completed

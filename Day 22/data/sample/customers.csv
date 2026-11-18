@@ -1,0 +1,6 @@
+﻿customer_id,customer_name,email,city,order_amount
+1,Rahul Sharma,rahul@example.com,Hyderabad,2500
+2,Priya Reddy,priya@example.com,Bengaluru,4200
+3,Arjun Kumar,arjun@example.com,Chennai,1800
+4,Neha Singh,neha@example.com,Mumbai,3500
+5,Kiran Rao,kiran@example.com,Hyderabad,5200

@@ -1,0 +1,23 @@
+﻿{
+    "source": "JSON sample",
+    "orders": [
+        {
+            "order_id": 101,
+            "customer_id": 1,
+            "product": "Laptop",
+            "amount": 55000
+        },
+        {
+            "order_id": 102,
+            "customer_id": 2,
+            "product": "Mobile",
+            "amount": 25000
+        },
+        {
+            "order_id": 103,
+            "customer_id": 3,
+            "product": "Headphones",
+            "amount": 3000
+        }
+    ]
+}

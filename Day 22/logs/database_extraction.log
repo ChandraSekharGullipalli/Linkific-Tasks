@@ -1,0 +1,186 @@
+2026-11-18 14:49:29,879 | INFO | ============================================================
+2026-11-18 14:49:29,880 | INFO | DAY 23 DATABASE EXTRACTION STARTED
+2026-11-18 14:49:29,881 | INFO | ============================================================
+2026-11-18 14:49:29,999 | INFO | Connected to PostgreSQL database: synthetic_data_db
+2026-11-18 14:49:30,000 | INFO | Extracting customers records after ID 0
+2026-11-18 14:49:30,026 | ERROR | FAILED to extract table: customers
+Traceback (most recent call last):
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\database\database_extractor.py", line 200, in run_extraction
+    json.dump(
+    ~~~~~~~~~^
+        output_data,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        default=json_serializer
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\database\database_extractor.py", line 78, in json_serializer
+    raise TypeError(f"Unsupported JSON value: {type(value)}")
+TypeError: Unsupported JSON value: <class 'datetime.date'>
+2026-11-18 14:49:30,091 | INFO | Extracting order_items records after ID 0
+2026-11-18 14:49:30,190 | INFO | SUCCESS: order_items | Records: 2516 | New watermark: 2516
+2026-11-18 14:49:30,190 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\order_items_20261118_144930_153652.json
+2026-11-18 14:49:30,190 | INFO | Extracting orders records after ID 0
+2026-11-18 14:49:30,205 | ERROR | FAILED to extract table: orders
+Traceback (most recent call last):
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\database\database_extractor.py", line 200, in run_extraction
+    json.dump(
+    ~~~~~~~~~^
+        output_data,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        default=json_serializer
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\database\database_extractor.py", line 78, in json_serializer
+    raise TypeError(f"Unsupported JSON value: {type(value)}")
+TypeError: Unsupported JSON value: <class 'datetime.date'>
+2026-11-18 14:49:30,207 | INFO | Extracting products records after ID 0
+2026-11-18 14:49:30,221 | INFO | SUCCESS: products | Records: 200 | New watermark: 200
+2026-11-18 14:49:30,221 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\products_20261118_144930_216972.json
+2026-11-18 14:49:30,221 | INFO | Extracting transactions records after ID 0
+2026-11-18 14:49:30,236 | ERROR | FAILED to extract table: transactions
+Traceback (most recent call last):
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\database\database_extractor.py", line 200, in run_extraction
+    json.dump(
+    ~~~~~~~~~^
+        output_data,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        default=json_serializer
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+  File "C:\Linkific Tasks\Linkific-Tasks\Day 22\src\ingestion\database\database_extractor.py", line 78, in json_serializer
+    raise TypeError(f"Unsupported JSON value: {type(value)}")
+TypeError: Unsupported JSON value: <class 'datetime.date'>
+2026-11-18 14:49:30,240 | INFO | ------------------------------------------------------------
+2026-11-18 14:49:30,240 | INFO | TOTAL RECORDS EXTRACTED: 2716
+2026-11-18 14:49:30,241 | INFO | SUCCESSFUL TABLES: 2
+2026-11-18 14:49:30,241 | INFO | FAILED TABLES: 3
+2026-11-18 14:49:30,241 | INFO | WATERMARK FILE: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\watermarks.json
+2026-11-18 14:49:30,242 | INFO | DATABASE EXTRACTION COMPLETED
+2026-11-18 14:49:30,242 | INFO | ============================================================
+2026-11-18 14:49:30,242 | INFO | PostgreSQL connection closed
+2026-11-18 14:53:58,992 | INFO | ============================================================
+2026-11-18 14:53:58,993 | INFO | DAY 23 DATABASE EXTRACTION STARTED
+2026-11-18 14:53:58,993 | INFO | ============================================================
+2026-11-18 14:53:59,261 | INFO | Connected to PostgreSQL database: synthetic_data_db
+2026-11-18 14:53:59,276 | INFO | Extracting customers records after ID 0
+2026-11-18 14:53:59,307 | INFO | SUCCESS: customers | Records: 1000 | New watermark: 1000
+2026-11-18 14:53:59,307 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\customers_20261118_145359_295943.json
+2026-11-18 14:53:59,308 | INFO | Extracting order_items records after ID 2516
+2026-11-18 14:53:59,314 | INFO | SUCCESS: order_items | Records: 0 | New watermark: 2516
+2026-11-18 14:53:59,314 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\order_items_20261118_145359_313674.json
+2026-11-18 14:53:59,314 | INFO | Extracting orders records after ID 0
+2026-11-18 14:53:59,336 | INFO | SUCCESS: orders | Records: 1000 | New watermark: 1000
+2026-11-18 14:53:59,336 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\orders_20261118_145359_325924.json
+2026-11-18 14:53:59,337 | INFO | Extracting products records after ID 200
+2026-11-18 14:53:59,344 | INFO | SUCCESS: products | Records: 0 | New watermark: 200
+2026-11-18 14:53:59,345 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\products_20261118_145359_343246.json
+2026-11-18 14:53:59,345 | INFO | Extracting transactions records after ID 0
+2026-11-18 14:53:59,378 | INFO | SUCCESS: transactions | Records: 1000 | New watermark: 1000
+2026-11-18 14:53:59,379 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\transactions_20261118_145359_362886.json
+2026-11-18 14:53:59,381 | INFO | ------------------------------------------------------------
+2026-11-18 14:53:59,381 | INFO | TOTAL RECORDS EXTRACTED: 3000
+2026-11-18 14:53:59,381 | INFO | SUCCESSFUL TABLES: 5
+2026-11-18 14:53:59,382 | INFO | FAILED TABLES: 0
+2026-11-18 14:53:59,382 | INFO | WATERMARK FILE: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\watermarks.json
+2026-11-18 14:53:59,382 | INFO | DATABASE EXTRACTION COMPLETED
+2026-11-18 14:53:59,383 | INFO | ============================================================
+2026-11-18 14:53:59,384 | INFO | PostgreSQL connection closed
+2026-11-18 14:55:16,339 | INFO | ============================================================
+2026-11-18 14:55:16,339 | INFO | DAY 23 DATABASE EXTRACTION STARTED
+2026-11-18 14:55:16,340 | INFO | ============================================================
+2026-11-18 14:55:16,387 | INFO | Connected to PostgreSQL database: synthetic_data_db
+2026-11-18 14:55:16,396 | INFO | Extracting customers records after ID 1000
+2026-11-18 14:55:16,402 | INFO | SUCCESS: customers | Records: 0 | New watermark: 1000
+2026-11-18 14:55:16,402 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\customers_20261118_145516_401878.json
+2026-11-18 14:55:16,402 | INFO | Extracting order_items records after ID 2516
+2026-11-18 14:55:16,407 | INFO | SUCCESS: order_items | Records: 0 | New watermark: 2516
+2026-11-18 14:55:16,408 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\order_items_20261118_145516_406901.json
+2026-11-18 14:55:16,408 | INFO | Extracting orders records after ID 1000
+2026-11-18 14:55:16,414 | INFO | SUCCESS: orders | Records: 0 | New watermark: 1000
+2026-11-18 14:55:16,414 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\orders_20261118_145516_412505.json
+2026-11-18 14:55:16,415 | INFO | Extracting products records after ID 200
+2026-11-18 14:55:16,420 | INFO | SUCCESS: products | Records: 0 | New watermark: 200
+2026-11-18 14:55:16,420 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\products_20261118_145516_419236.json
+2026-11-18 14:55:16,420 | INFO | Extracting transactions records after ID 1000
+2026-11-18 14:55:16,424 | INFO | SUCCESS: transactions | Records: 0 | New watermark: 1000
+2026-11-18 14:55:16,425 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\transactions_20261118_145516_424185.json
+2026-11-18 14:55:16,426 | INFO | ------------------------------------------------------------
+2026-11-18 14:55:16,427 | INFO | TOTAL RECORDS EXTRACTED: 0
+2026-11-18 14:55:16,427 | INFO | SUCCESSFUL TABLES: 5
+2026-11-18 14:55:16,427 | INFO | FAILED TABLES: 0
+2026-11-18 14:55:16,427 | INFO | WATERMARK FILE: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\watermarks.json
+2026-11-18 14:55:16,428 | INFO | DATABASE EXTRACTION COMPLETED
+2026-11-18 14:55:16,428 | INFO | ============================================================
+2026-11-18 14:55:16,428 | INFO | PostgreSQL connection closed
+2026-11-18 15:34:03,419 | INFO | ============================================================
+2026-11-18 15:34:03,420 | INFO | DAY 23 DATABASE EXTRACTION STARTED
+2026-11-18 15:34:03,420 | INFO | ============================================================
+2026-11-18 15:34:03,475 | INFO | Connected to PostgreSQL database: synthetic_data_db
+2026-11-18 15:34:03,476 | INFO | Extracting customers records after ID 1000
+2026-11-18 15:34:03,479 | INFO | SUCCESS: customers | Records: 0 | New watermark: 1000
+2026-11-18 15:34:03,479 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\customers_20261118_153403_479191.json
+2026-11-18 15:34:03,479 | INFO | Extracting order_items records after ID 2516
+2026-11-18 15:34:03,482 | INFO | SUCCESS: order_items | Records: 0 | New watermark: 2516
+2026-11-18 15:34:03,482 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\order_items_20261118_153403_482110.json
+2026-11-18 15:34:03,482 | INFO | Extracting orders records after ID 1000
+2026-11-18 15:34:03,484 | INFO | SUCCESS: orders | Records: 0 | New watermark: 1000
+2026-11-18 15:34:03,484 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\orders_20261118_153403_484412.json
+2026-11-18 15:34:03,485 | INFO | Extracting products records after ID 200
+2026-11-18 15:34:03,486 | INFO | SUCCESS: products | Records: 0 | New watermark: 200
+2026-11-18 15:34:03,486 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\products_20261118_153403_486159.json
+2026-11-18 15:34:03,486 | INFO | Extracting transactions records after ID 1000
+2026-11-18 15:34:03,489 | INFO | SUCCESS: transactions | Records: 0 | New watermark: 1000
+2026-11-18 15:34:03,489 | INFO | Saved raw data: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\transactions_20261118_153403_489119.json
+2026-11-18 15:34:03,491 | INFO | ------------------------------------------------------------
+2026-11-18 15:34:03,491 | INFO | TOTAL RECORDS EXTRACTED: 0
+2026-11-18 15:34:03,491 | INFO | SUCCESSFUL TABLES: 5
+2026-11-18 15:34:03,491 | INFO | FAILED TABLES: 0
+2026-11-18 15:34:03,491 | INFO | WATERMARK FILE: C:\Linkific Tasks\Linkific-Tasks\Day 22\data\raw\database\watermarks.json
+2026-11-18 15:34:03,491 | INFO | DATABASE EXTRACTION COMPLETED
+2026-11-18 15:34:03,491 | INFO | ============================================================
+2026-11-18 15:34:03,491 | INFO | PostgreSQL connection closed
