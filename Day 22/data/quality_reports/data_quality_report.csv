@@ -1,0 +1,42 @@
+dataset,quality_rule,total_records,passed_records,failed_records,status,description
+customers,Completeness - customer_id,1000,1000,0,PASS,Check for missing values in customer_id
+customers,Completeness - customer_name,1000,1000,0,PASS,Check for missing values in customer_name
+customers,Completeness - email,1000,1000,0,PASS,Check for missing values in email
+customers,Uniqueness - customer_id,1000,1000,0,PASS,Check missing or duplicate values in customer_id
+customers,Validity - email format,1000,1000,0,PASS,Check email address format
+products,Completeness - product_id,200,200,0,PASS,Check for missing values in product_id
+products,Completeness - product_name,200,200,0,PASS,Check for missing values in product_name
+products,Completeness - category,200,200,0,PASS,Check for missing values in category
+products,Uniqueness - product_id,200,200,0,PASS,Check missing or duplicate values in product_id
+products,Range - price,200,200,0,PASS,Check valid numeric range for price
+products,Range - stock_quantity,200,200,0,PASS,Check valid numeric range for stock_quantity
+sales,Completeness - order_item_id,2516,2516,0,PASS,Check for missing values in order_item_id
+sales,Completeness - order_id,2516,2516,0,PASS,Check for missing values in order_id
+sales,Completeness - customer_id,2516,2516,0,PASS,Check for missing values in customer_id
+sales,Completeness - product_id,2516,2516,0,PASS,Check for missing values in product_id
+sales,Completeness - order_date,2516,2516,0,PASS,Check for missing values in order_date
+sales,Uniqueness - order_item_id,2516,2516,0,PASS,Check missing or duplicate values in order_item_id
+sales,Range - quantity,2516,2516,0,PASS,Check valid numeric range for quantity
+sales,Range - unit_price,2516,2516,0,PASS,Check valid numeric range for unit_price
+sales,Range - line_total,2516,2516,0,PASS,Check valid numeric range for line_total
+sales,Validity - order_date,2516,2516,0,PASS,Check valid order dates
+sales,Referential integrity - customer_id,2516,2516,0,PASS,Every sales customer must exist in customers
+sales,Referential integrity - product_id,2516,2516,0,PASS,Every sales product must exist in products
+sales,Consistency - line_total,2516,2516,0,PASS,Check line_total = quantity multiplied by unit_price
+transactions,Completeness - transaction_id,1000,1000,0,PASS,Check for missing values in transaction_id
+transactions,Completeness - order_id,1000,1000,0,PASS,Check for missing values in order_id
+transactions,Completeness - transaction_date,1000,1000,0,PASS,Check for missing values in transaction_date
+transactions,Completeness - amount,1000,1000,0,PASS,Check for missing values in amount
+transactions,Completeness - payment_method,1000,1000,0,PASS,Check for missing values in payment_method
+transactions,Completeness - payment_status,1000,1000,0,PASS,Check for missing values in payment_status
+transactions,Uniqueness - transaction_id,1000,1000,0,PASS,Check missing or duplicate values in transaction_id
+transactions,Range - amount,1000,1000,0,PASS,Check valid numeric range for amount
+transactions,Validity - transaction_date,1000,1000,0,PASS,Check valid transaction dates
+transactions,Referential integrity - order_id,1000,1000,0,PASS,Every transaction must reference an existing sales order
+monthly_summary,Completeness - order_month,25,25,0,PASS,Check for missing values in order_month
+monthly_summary,Completeness - total_revenue,25,25,0,PASS,Check for missing values in total_revenue
+customer_summary,Completeness - customer_id,627,627,0,PASS,Check for missing values in customer_id
+customer_summary,Completeness - total_revenue,627,627,0,PASS,Check for missing values in total_revenue
+customer_summary,Uniqueness - customer_id,627,627,0,PASS,Check missing or duplicate values in customer_id
+monthly_summary,Range - total_revenue,25,25,0,PASS,Revenue must be a valid non-negative number
+customer_summary,Range - total_revenue,627,627,0,PASS,Revenue must be a valid non-negative number

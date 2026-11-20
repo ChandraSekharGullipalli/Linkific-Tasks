@@ -1,0 +1,21 @@
+
+DAY 22 - DATA QUALITY SUMMARY
+================================
+
+Total quality checks : 41
+Passed checks        : 41
+Failed checks        : 0
+Pass percentage      : 100.00%
+
+Total failed record-check occurrences: 0
+
+Report file:
+C:\Linkific Tasks\Linkific-Tasks\Day 22\data\quality_reports\data_quality_report.csv
+
+Quarantine folder:
+C:\Linkific Tasks\Linkific-Tasks\Day 22\data\quarantine
+
+Note:
+A record can fail more than one quality check.
+Therefore, failed record-check occurrences are not necessarily
+the number of unique invalid records.

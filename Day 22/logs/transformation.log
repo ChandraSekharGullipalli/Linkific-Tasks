@@ -1,0 +1,37 @@
+2026-11-20 12:13:38,295 - INFO - =======================================================
+2026-11-20 12:13:38,296 - INFO - DAY 22 TRANSFORMATION PIPELINE STARTED
+2026-11-20 12:13:38,296 - INFO - =======================================================
+2026-11-20 12:13:38,404 - INFO - Database connection successful.
+2026-11-20 12:13:38,404 - INFO - Starting source data extraction.
+2026-11-20 12:13:38,506 - INFO - Source data extraction completed.
+2026-11-20 12:13:38,506 - INFO - Customers: 1000 records
+2026-11-20 12:13:38,506 - INFO - Products: 200 records
+2026-11-20 12:13:38,506 - INFO - Orders: 1000 records
+2026-11-20 12:13:38,506 - INFO - Order Items: 2516 records
+2026-11-20 12:13:38,506 - INFO - Transactions: 1000 records
+2026-11-20 12:13:38,507 - INFO - Transforming customer data.
+2026-11-20 12:13:38,514 - INFO - Customer transformation completed.
+2026-11-20 12:13:38,515 - INFO - Transforming product data.
+2026-11-20 12:13:38,517 - INFO - Product transformation completed.
+2026-11-20 12:13:38,517 - INFO - Transforming order data.
+2026-11-20 12:13:38,520 - INFO - Order transformation completed.
+2026-11-20 12:13:38,520 - INFO - Transforming order item data.
+2026-11-20 12:13:38,522 - INFO - Order item transformation completed.
+2026-11-20 12:13:38,522 - INFO - Transforming transaction data.
+2026-11-20 12:13:38,524 - INFO - Transaction transformation completed.
+2026-11-20 12:13:38,525 - INFO - Joining sales source tables.
+2026-11-20 12:13:38,540 - INFO - Sales dataset created: 2516 records
+2026-11-20 12:13:38,541 - INFO - Joining transaction source tables.
+2026-11-20 12:13:38,546 - INFO - Transaction dataset created: 1000 records
+2026-11-20 12:13:38,546 - INFO - Creating sales aggregations.
+2026-11-20 12:13:38,562 - INFO - Sales aggregations completed.
+2026-11-20 12:13:38,562 - INFO - Saving transformed datasets.
+2026-11-20 12:13:38,567 - INFO - Saved customers_transformed.csv with 1000 records
+2026-11-20 12:13:38,570 - INFO - Saved products_transformed.csv with 200 records
+2026-11-20 12:13:38,585 - INFO - Saved sales_transformed.csv with 2516 records
+2026-11-20 12:13:38,590 - INFO - Saved transactions_transformed.csv with 1000 records
+2026-11-20 12:13:38,593 - INFO - Saved monthly_sales_summary.csv with 25 records
+2026-11-20 12:13:38,596 - INFO - Saved customer_sales_summary.csv with 627 records
+2026-11-20 12:13:38,596 - INFO - =======================================================
+2026-11-20 12:13:38,596 - INFO - TRANSFORMATION PIPELINE COMPLETED SUCCESSFULLY
+2026-11-20 12:13:38,596 - INFO - =======================================================

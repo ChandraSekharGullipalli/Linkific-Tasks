@@ -1,0 +1,34 @@
+2026-11-20 14:48:37,878 | INFO | ============================================================
+2026-11-20 14:48:37,878 | INFO | INCREMENTAL WAREHOUSE LOADING STARTED
+2026-11-20 14:48:37,879 | INFO | ============================================================
+2026-11-20 14:48:38,066 | INFO | Connected to database: synthetic_data_db
+2026-11-20 14:48:38,067 | INFO | Warehouse checkpoint file not found.
+2026-11-20 14:48:38,067 | INFO | Initializing from existing warehouse records.
+2026-11-20 14:48:38,128 | INFO | Current warehouse watermarks: {'customers': 1000, 'products': 200, 'order_items': 2516, 'transactions': 1000}
+2026-11-20 14:48:38,146 | INFO | New customer dimensions inserted: 0
+2026-11-20 14:48:38,151 | INFO | New product dimensions inserted: 0
+2026-11-20 14:48:38,179 | INFO | New date dimension records inserted: 0
+2026-11-20 14:48:38,186 | INFO | New payment methods inserted: 0
+2026-11-20 14:48:38,202 | INFO | New sales fact records inserted: 0
+2026-11-20 14:48:38,208 | INFO | New transaction fact records inserted: 0
+2026-11-20 14:48:38,212 | INFO | Incremental fact verification passed.
+2026-11-20 14:48:38,219 | INFO | Updated warehouse watermarks: {'customers': 1000, 'products': 200, 'order_items': 2516, 'transactions': 1000}
+2026-11-20 14:48:38,219 | INFO | INCREMENTAL WAREHOUSE LOADING COMPLETED SUCCESSFULLY
+2026-11-20 14:48:38,219 | INFO | Database connection closed.
+2026-11-20 14:48:38,220 | INFO | ============================================================
+2026-11-20 14:54:06,964 | INFO | ============================================================
+2026-11-20 14:54:06,965 | INFO | INCREMENTAL WAREHOUSE LOADING STARTED
+2026-11-20 14:54:06,965 | INFO | ============================================================
+2026-11-20 14:54:07,172 | INFO | Connected to database: synthetic_data_db
+2026-11-20 14:54:07,173 | INFO | Current warehouse watermarks: {'customers': 1000, 'products': 200, 'order_items': 2516, 'transactions': 1000}
+2026-11-20 14:54:07,222 | INFO | New customer dimensions inserted: 0
+2026-11-20 14:54:07,244 | INFO | New product dimensions inserted: 0
+2026-11-20 14:54:07,323 | INFO | New date dimension records inserted: 0
+2026-11-20 14:54:07,343 | INFO | New payment methods inserted: 0
+2026-11-20 14:54:07,362 | INFO | New sales fact records inserted: 0
+2026-11-20 14:54:07,369 | INFO | New transaction fact records inserted: 0
+2026-11-20 14:54:07,396 | INFO | Incremental fact verification passed.
+2026-11-20 14:54:07,407 | INFO | Updated warehouse watermarks: {'customers': 1000, 'products': 200, 'order_items': 2516, 'transactions': 1000}
+2026-11-20 14:54:07,407 | INFO | INCREMENTAL WAREHOUSE LOADING COMPLETED SUCCESSFULLY
+2026-11-20 14:54:07,408 | INFO | Database connection closed.
+2026-11-20 14:54:07,408 | INFO | ============================================================

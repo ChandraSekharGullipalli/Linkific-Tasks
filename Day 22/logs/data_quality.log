@@ -1,0 +1,65 @@
+2026-11-20 13:53:26,301 - INFO - =======================================================
+2026-11-20 13:53:26,301 - INFO - DATA QUALITY FRAMEWORK STARTED
+2026-11-20 13:53:26,302 - INFO - =======================================================
+2026-11-20 13:53:26,302 - INFO - Loading transformed datasets.
+2026-11-20 13:53:26,316 - INFO - Loaded customers_transformed.csv: 1000 records
+2026-11-20 13:53:26,320 - INFO - Loaded products_transformed.csv: 200 records
+2026-11-20 13:53:26,329 - INFO - Loaded sales_transformed.csv: 2516 records
+2026-11-20 13:53:26,336 - INFO - Loaded transactions_transformed.csv: 1000 records
+2026-11-20 13:53:26,340 - INFO - Loaded monthly_sales_summary.csv: 25 records
+2026-11-20 13:53:26,345 - INFO - Loaded customer_sales_summary.csv: 627 records
+2026-11-20 13:53:26,345 - INFO - Validating customers.
+2026-11-20 13:53:26,349 - INFO - customers | Completeness - customer_id | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,354 - INFO - customers | Completeness - customer_name | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,358 - INFO - customers | Completeness - email | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,361 - INFO - customers | Uniqueness - customer_id | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,363 - INFO - customers | Validity - email format | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,363 - INFO - Validating products.
+2026-11-20 13:53:26,364 - INFO - products | Completeness - product_id | Passed: 200 | Failed: 0
+2026-11-20 13:53:26,367 - INFO - products | Completeness - product_name | Passed: 200 | Failed: 0
+2026-11-20 13:53:26,368 - INFO - products | Completeness - category | Passed: 200 | Failed: 0
+2026-11-20 13:53:26,369 - INFO - products | Uniqueness - product_id | Passed: 200 | Failed: 0
+2026-11-20 13:53:26,370 - INFO - products | Range - price | Passed: 200 | Failed: 0
+2026-11-20 13:53:26,372 - INFO - products | Range - stock_quantity | Passed: 200 | Failed: 0
+2026-11-20 13:53:26,373 - INFO - Validating sales.
+2026-11-20 13:53:26,376 - INFO - sales | Completeness - order_item_id | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,380 - INFO - sales | Completeness - order_id | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,383 - INFO - sales | Completeness - customer_id | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,386 - INFO - sales | Completeness - product_id | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,390 - INFO - sales | Completeness - order_date | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,392 - INFO - sales | Uniqueness - order_item_id | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,394 - INFO - sales | Range - quantity | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,396 - INFO - sales | Range - unit_price | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,398 - INFO - sales | Range - line_total | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,408 - INFO - sales | Validity - order_date | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,411 - INFO - sales | Referential integrity - customer_id | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,413 - INFO - sales | Referential integrity - product_id | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,416 - INFO - sales | Consistency - line_total | Passed: 2516 | Failed: 0
+2026-11-20 13:53:26,417 - INFO - Validating transactions.
+2026-11-20 13:53:26,418 - INFO - transactions | Completeness - transaction_id | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,420 - INFO - transactions | Completeness - order_id | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,423 - INFO - transactions | Completeness - transaction_date | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,426 - INFO - transactions | Completeness - amount | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,428 - INFO - transactions | Completeness - payment_method | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,430 - INFO - transactions | Completeness - payment_status | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,431 - INFO - transactions | Uniqueness - transaction_id | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,432 - INFO - transactions | Range - amount | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,435 - INFO - transactions | Validity - transaction_date | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,438 - INFO - transactions | Referential integrity - order_id | Passed: 1000 | Failed: 0
+2026-11-20 13:53:26,439 - INFO - Validating summary datasets.
+2026-11-20 13:53:26,440 - INFO - monthly_summary | Completeness - order_month | Passed: 25 | Failed: 0
+2026-11-20 13:53:26,442 - INFO - monthly_summary | Completeness - total_revenue | Passed: 25 | Failed: 0
+2026-11-20 13:53:26,444 - INFO - customer_summary | Completeness - customer_id | Passed: 627 | Failed: 0
+2026-11-20 13:53:26,447 - INFO - customer_summary | Completeness - total_revenue | Passed: 627 | Failed: 0
+2026-11-20 13:53:26,448 - INFO - customer_summary | Uniqueness - customer_id | Passed: 627 | Failed: 0
+2026-11-20 13:53:26,450 - INFO - monthly_summary | Range - total_revenue | Passed: 25 | Failed: 0
+2026-11-20 13:53:26,452 - INFO - customer_summary | Range - total_revenue | Passed: 627 | Failed: 0
+2026-11-20 13:53:26,453 - INFO - Saving invalid records.
+2026-11-20 13:53:26,463 - INFO - Data quality report generated.
+2026-11-20 13:53:26,464 - INFO - Total checks: 41
+2026-11-20 13:53:26,464 - INFO - Passed checks: 41
+2026-11-20 13:53:26,465 - INFO - Failed checks: 0
+2026-11-20 13:53:26,465 - INFO - Pass percentage: 100.00%
+2026-11-20 13:53:26,465 - INFO - =======================================================
+2026-11-20 13:53:26,466 - INFO - DATA QUALITY FRAMEWORK COMPLETED
+2026-11-20 13:53:26,466 - INFO - =======================================================
